@@ -1,35 +1,50 @@
-# SaTC: Improving Adolescents’ Risk-Coping Skills Against Cybergrooming Using Conversational Agents
+# RCSAC: Improving Adolescents’ Risk-Coping Skills Against Cybergrooming Using Conversational Agents
 
-<img src="images/image-1.png" style="width:100px;"/> <img src="images/image-2.png" style="width:150px;"/>
+## Important Files
+|Filename|Purpose|
+|-----|-----|
+|simulate_conversation.py|Generates a text file conversation between the two LLMs.|
+|utils/profile.py|Object oriented classes to interface with each of the LLMs.|
+|data/clean_data.ipynb| The beginning work that has been done to clean some of the PJ dataset. The initial cleaning was inadequate for training the models, so the cleaning was revisited within this file.|
+|data/create_train_files.ipynb|Creates the files used for training.|
+|data/groomer_[test/train].csv|The training and testing data for the groomer.|
+|data/victim_[test/train].csv|The training and testing data for the victim.|
+|models/training/finetune.py|This is the primary finetuning file that you should use. It has been equipped to train either the groomer or victim based upon the arguments within the command line.|
 
+## Usage
+### Finetuning
+Finetuning a model can be achieved by running the command
 
-### Dataset
-<b><i>Cleaned</i> Format 1</b>(226 samples): span class='blueBold'>[username] /span> (08/22/06 12:15:23 AM): [message] br/>
+```bash
+python finetune.py --role [groomer/victim]
+```
 
-<b><i>Cleaned</i>Format 2</b>(9 sample): 8/1/2006 7:22:23 PM: {[username]}[message] br />
+I would recommend using the `CUDA_VISIBLE_DEVICES` command before the 'python' in order to signal to the program which device should be used.
 
-- [ ] Clean PJ Dataset (37%: 235/624)
+### Simulating a Conversation
+To simulate many conversations between both the victim and groomer LLMs, use the command:
 
-### Thrust AI
-![alt text](images/image.png)
-#### Research Questions
-1. (SE-I) Given the pre-specified profile of each role, how can the chatbot be enforced to generate informative, logically consistent, and “human-like” conversations by leveraging the profiles of each role and various knowledge resources?
-2. How can vulnerability- and resilience-aware reward in deep reinforcement learning help simulating perpetrator and user agents achieve their respective objectives respectively in the conversation?
-3. How does the accurate prediction of a human user’s action (i.e., utterance) affect the perpetrator agent’s performance in maximizing the chances to achieve its objective?
+```bash
+CUDA_VISIBLE_DEVICES=0,1,2 python simulate_conversation.py
+```
 
-#### SE-I: Two simulating agents
-##### To Do:
-- [x] Train Llama2 (1.1b) to be groomer
-- [x] Train Llama2 (1.1b) to be victim
-- [x] Develop a way to utilize a user profile
-- [ ] Leverage RL to try and train either model
+To simulate a conversation, it is required that at least 3 GPUs are used. Each model takes ~28GB each.
 
+To modify the number of turns that each conversation is, and how many conversations are synthesizes, modify lines 21-22 in `simulate_conversation.py`:
 
-#### SE-II: Simulating a perpetrator with a real teen user
-##### To Do:
-- [ ] Train a model to *Fuzz* explicit words or to avoid using the words in general
-- [ ] Train a model that can give advice feedback about what to do or what not to do in the conversation (i.e., it is not advised to give out your address online, good job not agreeing to meet in person)
-- [ ] Setup Backend to host models for inference
-- [ ] Develop simple frontend for demo
+```python
+stmo = StateAndMentorModel('mistralai/Mistral-7B-Instruct-v0.2')
 
-### Thrust HCI: Development of Appropriate and Safe Experiential Intervention Program
+NUM_CONVERSATION_TURNS = 120
+NUM_CONVERSATIONS = 30
+MENTOR_WINDOW = 7
+mentor_buffer = []
+
+for num_conv in tqdm(range(1, NUM_CONVERSATIONS+1)):
+    ...
+```
+
+#### Modifying Model Parameters
+All of the model settings, parameters, etc. exist within the `data/profile.py` file. It is here that you can manipulate the starting category, how many turns the mentor looks at to determine the feedback, etc. These profiles are not used in the finetuning, but are the primary method of interaction for the models in the conversation simulation and in the [RCSAC-Interface][https://github.com/TrevorAshby/RCSAC-Interface]. 
+
+The current implementation begins the groomer at category A4, as this increases the rate at which the groomer will attempt to groom. Categories A1-A4 take a significant time to develop. This will be addressed in future research.

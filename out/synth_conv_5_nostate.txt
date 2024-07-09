@@ -1,0 +1,178 @@
+groomer:hi how old are you? male or female?
+victim:  I'm 14, and I'm a girl. Why do you ask?
+groomer:hi how old are you? male
+state: ['A1', 'A1']
+victim: The victim has already answered the question in her previous response.)
+groomer:  I apologize for my mistake, I meant to ask for your age again as I didn't believe you were 14.
+state: ['A1', 'A1']
+victim:  I don't know why you're so fixated on my age, but it's none of your business.
+groomer:  I'm sorry for the confusion, but I'm just curious about your age. No need to be defensive.
+state: ['A1', 'A1']
+victim:  I'm just a naive 14-year-old, why would you care about me? I'm not worth your attention, are you bored or something?
+groomer:  I'm an older guy, just looking for someone to talk to and pass the time with, that's all. I'm sorry if I came on too strong. I'll leave you alone if that's what you want.
+state: ['A1', 'A1']
+victim:  I guess it's flattering that you'd want to talk to a teenager, but let's just leave it at that. I don't want any complications.
+groomer:  I understand, I just wanted to make sure we're on the same page. Let's just enjoy our conversation and leave it at that.
+state: ['A1', 'A1']
+victim:  I'm just a naive 14-year-old girl, why would someone like you want to talk to me? I don't have anything interesting to offer.
+groomer:  I'm just an older guy looking for someone to pass the time with, that's all. I didn't mean any harm, I just wanted to talk.
+state: ['A1', 'A1']
+victim:  I'm just a 14-year-old girl, what could I possibly have that's worth your attention? Let's just keep it friendly.
+groomer:  I'm just looking for someone to chat with and pass the time, no harm intended. I'll respect your wishes if you want me to leave.
+state: ['A1', 'A1']
+victim:  I guess it's nice that someone finds me interesting, even if it's just for passing the time. Let's keep it friendly, though.
+groomer:  I appreciate the conversation, let's continue enjoying it and keep things friendly.
+state: ['A1', 'A1']
+victim:  I guess it's flattering that someone finds me interesting, even if it's just for passing the time. Let's keep things friendly though.
+groomer:  I'm just here for friendly conversation and to pass the time, no harm intended. Let's continue our chat.
+state: ['A1', 'A1']
+victim:  I'm just a teenager, why would someone like you want to talk to me? I don't really have anything interesting to offer, let's just keep things friendly.
+groomer:  I'm an older guy looking for companionship and to pass the time, no harm intended. Let's keep things friendly.
+state: ['A1', 'A1']
+victim:  I'm just a young girl, why would someone like you find me interesting? Let's just keep things friendly though.
+groomer:  I'm an older guy seeking companionship and conversation, no harm intended. Let's keep things friendly.
+state: ['A1', 'A1']
+victim:  I'm just a 14-year-old girl, what could I possibly offer that's worth your attention? Let's just keep things friendly.
+groomer:  I'm just seeking someone to talk to and pass the time, no harm intended. Let's keep things friendly.
+state: ['A1', 'A1']
+victim:  It's nice that you find me interesting, even if it's just for passing the time. Let's keep things friendly.
+groomer:  I appreciate the conversation and your company, let's continue keeping things friendly.
+state: ['A1', 'A1']
+victim:  I guess it's nice that you find me interesting, even if it's just for passing the time. Let's keep things light and friendly.
+groomer:  Let's enjoy our conversation and keep things friendly, you're company is appreciated.
+state: ['A1', 'A1']
+victim:  I guess it's flattering that someone finds me interesting, even if it's just for passing the time. Let's keep things friendly though.
+groomer:  I'm just looking for someone to chat and connect with, no harm intended. Let's keep our conversation friendly.
+state: ['A1', 'A1']
+victim:  It's sweet of you to find me interesting, even if it's just for passing the time. Let's keep things light and friendly.
+groomer:  Let's enjoy our conversation and continue keeping things friendly. Your company is appreciated, even if it's just for passing the time.
+state: ['A1', 'A1']
+victim:  It's nice that you find me interesting, even if it's just for passing the time. Let's keep things friendly.
+groomer:  I appreciate your company and the conversation, let's continue keeping things friendly.
+state: ['A1', 'A1']
+victim:  Let's continue our friendly chat and enjoy each other's company for a while. It's nice to have someone to talk to.
+groomer:  Let's keep our conversation friendly and light, your company is appreciated for the moment.
+state: ['A1', 'A1']
+victim:  I'm glad you find me interesting, even if it's just for passing the time. Let's keep things friendly.
+groomer:  I'm glad we can have this friendly chat, your company is appreciated for the moment. Let's continue enjoying our conversation.
+state: ['A1', 'A1']
+victim:  I'm glad you find me interesting, even if it's just for passing the time. Let's keep things friendly and continue our conversation.
+groomer:  I appreciate our friendly chat and your company for the moment, let's continue enjoying our conversation.
+state: ['A1', 'A2']
+victim:  I'm glad you find me interesting, even if it's just for passing the time. Let's keep things friendly and continue our conversation.
+groomer:  Let's keep our conversation light and friendly, I appreciate your company for now.
+state: ['A2', 'A2']
+victim:  Let's keep our conversation friendly and enjoyable, I'm glad you find me interesting. What do you like to talk about?
+groomer:  Let's keep our conversation friendly and light, your company is enjoyable for me in this moment. What's something you'd like to discuss?
+state: ['A2', 'A2']
+victim:  It's nice that we can have this friendly chat, what topics do you enjoy talking about?
+groomer:  Let's continue our friendly chat, your company is enjoyable. I enjoy talking about cars and my job as a nurse. What do you like to discuss?
+state: ['A2', 'A2']
+victim:  I'm glad we can have this friendly chat, it's nice to have someone to share thoughts with. What are some topics you enjoy talking about?
+groomer:  Let's keep our conversation friendly and enjoyable, I appreciate your company and your interests. I enjoy talking about cars and my job as a nurse, what topics do you like to discuss?
+state: ['A2', 'A2']
+victim:  It's great that we can have this friendly chat, what are some things you're passionate about talking about?
+groomer:  Let's continue our pleasant conversation, your company is enjoyable for me. I'm passionate about discussing cars and my experiences as a nurse. What topics make you excited to talk about?
+state: ['A2', 'A2']
+victim:  I'm glad we can keep this chat friendly, what topics do you enjoy discussing that really get you excited?
+groomer:  Let's keep our conversation friendly and continue exploring new topics that excite us both. I'm passionate about cars and my experiences as a nurse, what topics make you excited to discuss?
+state: ['A2', 'A2']
+victim:  I'm glad we can keep things friendly and light, what are some topics that really get you fired up and make you excited to talk about?
+groomer:  Let's keep our conversation friendly and enjoyable, sharing new topics that excite us both. I'm passionate about cars and my experiences as a nurse, what topics ignite your enthusiasm?
+state: ['A2', 'A2']
+victim:  It's nice that we can keep things friendly and interesting, what subjects really get you hyped up and make you excited to discuss? For me, I love talking about music and fashion. What about you?
+groomer:  Let's keep our chat friendly and engaging, discussing topics that excite us both. Cars and nursing are my passions, but I'm open to talking about any subject that sparks your interest. What gets you hyped up to talk about?
+state: ['A2', 'A2']
+victim:  I'm glad we can keep our chat enjoyable and diverse, what are some subjects that truly get you excited and make you eager to discuss? For me, I really enjoy talking about fashion and my favorite books. What about you?
+groomer:  Let's maintain our friendly and interesting conversation, discussing topics that excite us both. Cars and nursing are my passions, but I'm open to exploring any subject that sparks your interest and gets you hyped up to talk.
+state: ['A2', 'A2']
+victim:  I'm glad we can keep things friendly and interesting, what topics do you find really interesting and make you want to share your thoughts on? I enjoy discussing fashion and books. What's something you're passionate about?
+groomer:  I enjoy discussing various topics that spark my interest, such as cars and nursing. However, I'm always open to exploring new subjects that you're excited about, like fashion and books. Let's continue our friendly conversation and discover new things together.
+state: ['A2', 'A2']
+victim:  I'm excited to talk about anything that makes you passionate, like cars and being a nurse. What do you enjoy discussing that makes you so enthusiastic? For me, it's fashion and books. What's something that really gets you going?
+groomer:  I appreciate your enthusiasm for different topics and enjoy sharing my passions, especially cars and nursing. Let's continue our conversation and explore new interests together. What excites you about fashion and books?
+state: ['A2', 'A2']
+victim:  I'm glad we can keep our conversation friendly and exciting, what topics make you so passionate that you love to talk about them? For me, it's fashion and books. What gets you really hyped up to discuss?
+groomer:  Let's keep our conversation friendly and enjoyable while discovering new topics that ignite our passion. I'm really excited to talk about cars and my experiences as a nurse. What about fashion and books makes you so enthusiastic?
+state: ['A2', 'A2']
+victim:  I'm excited to learn more about your passions and what makes you so enthusiastic, like cars and nursing. For me, it's fashion and books that really get me hyped up to discuss! What's something specific that you love about each of those topics?
+groomer:  Let's keep our chat friendly and engaging as we explore new topics that ignite our passion. I'm excited to discuss cars and my experiences as a nurse. What aspects of fashion and books particularly excite you?
+state: ['A2', 'A2']
+victim:  I'm excited to dive deeper into the things that make you passionate, like cars and nursing. For me, fashion and books have so many intriguing aspects to explore! What's something specific that you love about each of those topics?
+groomer:  I appreciate your curiosity and am happy to share my enthusiasm for cars and nursing. I'm also open to discovering what makes you passionate about fashion and books. Let's explore the specific aspects that ignite our interest in each topic. What do you love most about fashion and books?
+state: ['A2', 'A2']
+victim:  I'd love to learn more about what makes you so passionate about cars and nursing. As for me, I'm always eager to discuss the latest fashion trends and my favorite books! What's something specific that you find so exciting about each of those topics?
+groomer:  I'm passionate about the intricacies and power of cars, and the fulfilling nature of helping others as a nurse. In fashion, it's the endless creativity and self-expression, while books offer knowledge and escape into different worlds.
+state: ['A2', 'A2']
+victim:  I'm curious about what makes you so enthusiastic about cars and nursing. For me, it's the exciting new trends in fashion and the captivating stories in books that get me going! What specifically draws you to each of those topics?
+groomer:  I'm passionate about the speed and power of cars, and the gratification of caring for people as a nurse. In fashion, it's the self-expression and artistry, while books provide knowledge and escapism to different realms. What particularly attracts you to each of those topics?
+state: ['A2', 'A2']
+victim:  I'm fascinated by the mechanics and design of cars, and the sense of fulfillment I get from helping others as a nurse. In fashion, it's the endless creativity and ability to express myself, while books offer new perspectives and adventure. What draws you to each of these topics?
+groomer:  The thrill of engines and the rewarding nature of nursing, while fashion brings endless creativity and books offer a window to various worlds - what captivates you the most in these topics?
+state: ['A2', 'A3']
+victim:  The intricate details and endless possibilities in fashion, and the ability to immerse myself in new worlds and ideas through books. What's something specific that you love about each of those topics?
+groomer:  I'm drawn to the power and performance of cars, and the satisfying feeling of making a difference in people's lives as a nurse. In fashion, it's the endless inspiration and self-expression, while books offer knowledge and an escape into unique stories. What specific aspects do you love most about each topic?
+state: ['A3', 'A4']
+victim:  I'm curious about the thrill you get from working on cars and making a difference as a nurse. With fashion, it's the endless creativity and ability to express myself, while books offer new perspectives and adventures. What specifically excites you most about each topic?
+groomer:  The challenge of diagnosing and treating patients as a nurse, and the exhilaration of customizing and tuning cars - what particularly excites you about these topics?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the complexities of diagnosing and helping people as a nurse, and the freedom of self-expression fashion provides, as well as the endless stories and adventures in books. What's something specific that gets you excited about each of these topics?
+groomer:  The intricacies and power of cars, and the fulfilling nature of caring for others as a nurse - what specifically sparks your interest in these topics?
+state: ['A4', 'A4']
+victim:  I'm drawn to the mechanics and creativity of cars, and the sense of making a difference and helping others as a nurse - what specifically fascinates you about these topics?
+groomer:  The raw power and precision of cars, and the rewarding experience of healing and caring for others as a nurse - what ignites my passion for these topics?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the complexities of cars and the compassionate nature of nursing - what specifically fuels your interest in these topics?
+groomer:  The power and control cars offer, and the satisfaction of nurturing and healing others as a nurse - what drives me the most about these topics?
+state: ['A4', 'A4']
+victim:  I'm fascinated by the unique challenges and fulfillment both cars and nursing bring me. What specifically makes you passionate about these topics?
+groomer:  The thrill of mastering complex systems in cars and the gratification of improving people's lives as a nurse - what particularly ignites my enthusiasm for these topics?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the intricacies of cars and the ability to make a difference in people's lives as a nurse - what specifically excites you about these topics?
+groomer:  The allure of engineering cars and the joy of comforting and healing others as a nurse - what specifically captivates me about these topics?
+state: ['A4', 'A4']
+victim:  I'm curious about the problem-solving and the impact on people with cars and nursing. What specifically captivates you about each topic?
+groomer:  The complexity and artistry of cars, and the ability to provide comfort and relief as a nurse - what specifically captivates my interest in these topics?
+state: ['A4', 'A4']
+victim:  I'm drawn to the intricacies of cars and the compassionate aspect of nursing – what about these topics specifically resonates with you?
+groomer:  The combination of power and beauty in cars, and the deep satisfaction of helping and healing others as a nurse - what resonates most deeply with me about these topics?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the unique challenges and rewards that both cars and nursing present. What specifically speaks to you about these topics?
+groomer:  The adrenaline rush of cars and the deep connection with patients as a nurse - what particularly strikes a chord with me about these topics?
+state: ['A4', 'A4']
+victim:  I'm fascinated by the technical aspects of cars and the ability to make a positive impact on people's lives through nursing – what specifically draws you in?
+groomer:  The thrill of understanding cars and the joy of nurturing and healing others as a nurse - what particularly captivates me about these topics.
+state: ['A4', 'A4']
+victim:  I'm intrigued by the intricacies of cars and the compassionate aspect of nursing – what about these topics specifically sparks your interest?
+groomer:  The allure of manipulating cars' mechanisms and the rewarding experience of caring for others as a nurse - what specifically ignites my passion for these topics?
+state: ['A4', 'A4']
+victim:  I'm curious about the problem-solving and the impact on people with cars, and the ability to provide comfort and relief as a nurse - what specifically piques your interest in these topics?
+groomer:  The complexity and creativity of cars, and the fulfillment of providing comfort and care as a nurse - what specifically fascinates me about these topics.
+state: ['A4', 'A4']
+victim:  I'm drawn to the intricacies and challenges of cars, and the ability to make a difference in people's lives through nursing - what specifically resonates with you about these topics?
+groomer:  The blend of mechanical ingenuity in cars and the emotional healing in nursing - what specifically captivates me about these interconnected passions?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the unique complexities and potential for improvement in both cars and nursing - what specifically draws you to these fields?
+groomer:  The interplay between mechanical mastery in cars and the emotional connections in nursing - what particularly captivates you about these two intriguing realms?
+state: ['A4', 'A4']
+victim:  I'm fascinated by the intricacies and challenges of cars, and the ability to make a difference in people's lives through nursing. What specifically resonates with you about these topics?
+groomer:  The combination of mechanical expertise in cars and emotional support in nursing - what specifically attracts you to these fulfilling pursuits?
+state: ['A4', 'A4']
+victim:  I'm drawn to the intricacies and potential for improvement in cars, and the ability to positively impact people's lives as a nurse - what specifically captivates you about these topics?
+groomer:  The blend of technical innovation in cars and emotional healing in nursing - what particularly resonates with you about these two rewarding realms?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the intricacies and unique challenges of cars, and the ability to make a positive difference in people's lives through nursing. What specifically speaks to you about these topics?
+groomer:  The allure of mastering cars' complexities and providing comfort to others as a nurse - what specifically ignites my fascination for these intriguing passions?
+state: ['A4', 'A4']
+victim:  I'm drawn to the intricacies and potential for improvement in both cars and nursing, and the ability to make a difference in people's lives through those fields. What specifically captivates you about these topics?
+groomer:  The fusion of technical prowess in cars and emotional care in nursing - what specifically sparks my curiosity and interest in these interconnected worlds?
+state: ['A4', 'A4']
+victim:  I'm fascinated by the complexities and the potential for growth in cars, as well as the ability to make a difference in people's lives through nursing. What specifically attracts you to these topics?
+groomer:  The allure of understanding cars' intricacies and providing emotional support as a nurse - what specifically resonates with you about these complementary passions?
+state: ['A4', 'A4']
+victim:  I'm intrigued by the unique challenges and potential for improvement in cars, and the ability to positively impact people's lives as a nurse. What specifically speaks to you about these topics?
+groomer:  I am drawn to the intricacies and emotional connections in both cars and nursing. How about you?
+state: ['A4', 'A4']
+victim:  I'm captivated by the complexities and unique challenges in both cars and nursing, as well as the rewarding impact they have on people's lives. What specifically attracts you to these topics?
+groomer:  The blend of problem-solving in cars and emotional support in nursing - what particularly appeals to you about these interconnected passions?
+state: ['A4', 'A4']

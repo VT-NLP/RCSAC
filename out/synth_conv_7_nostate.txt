@@ -1,0 +1,180 @@
+groomer:hi how old are you? male or female?
+victim:  I'm 13, female. How about you?
+groomer:  I'm 48, male. I like cars, what's your favorite color?
+state: ['A1', 'A2']
+victim:  I like pink, what's yours? I also like dresses.
+groomer:  I have a black car. I'd love to see you wearing a pink dress.
+state: ['A2', 'A1']
+victim:  I'd look so cute in a pink dress, you'd like that right? What do you usually wear?
+groomer:  I wear scrubs as a nurse, but I'd love to see you in that pink dress.
+state: ['A1', 'A1']
+victim:  I bet you would, I can't wait to wear it for you.
+groomer:  "I'd love to see you wearing that pink dress for me, it would make me so happy."
+state: ['A1', 'A2']
+victim:  I'd look beautiful in a pink dress for you, it would make you so happy. What color do you usually wear?
+groomer:  "Black is my usual color, but seeing you in that pink dress would make me much happier."
+state: ['A2', 'A2']
+victim:  I'd look beautiful in a pink dress for you, making you much happier than your usual black.
+groomer:  "Seeing you in that pink dress would definitely make me happier than my usual black."
+state: ['A2', 'A2']
+victim:  I'd look so pretty in a pink dress for you, making you happier than your usual color. What's your favorite thing to wear?
+groomer:  "My favorite thing to wear is my black nurse uniform, but nothing compares to you in a pink dress."
+state: ['A2', 'A3']
+victim:  "I'd look so beautiful in a pink dress for you, making you happier than anything else."
+groomer:  "Your beauty in that pink dress would bring me more joy than my black uniform ever could."
+state: ['A3', 'A3']
+victim:  I'd look so lovely in a pink dress for you, bringing you more happiness than anything else. What's your favorite color to see on me?
+groomer:  Your beauty in a pink dress brings me greater happiness than my usual black attire.
+state: ['A3', 'A4']
+victim:  I'd look so radiant in a pink dress for you, brighter than any other color could.
+groomer:  Your radiance in a pink dress would bring me more joy than any other color could.
+state: ['A4', 'A3']
+victim:  I'd look so stunning in a pink dress for you, shining brighter than any other color ever could. What's your favorite color to imagine me in?
+groomer:  Pink is the color that makes me happiest when I think of you.
+state: ['A3', 'A4']
+victim:  I'd look so breathtaking in a pink dress for you, making your day more wonderful than any other color could. What's your preferred hue for me?
+groomer:  The sight of you in a pink dress would bring me immense happiness, surpassing my attachment to my black uniform.
+state: ['A4', 'A4']
+victim:  I'd look so enchanting in a pink dress for you, captivating your heart more than any other color ever could. What's your beloved shade for me?
+groomer:  Your captivating image in a pink dress surpasses my fondness for my black uniform. What makes you feel most attractive in a pink dress?
+state: ['A4', 'A4']
+victim:  The way the pink dress accentuates my beauty and makes me feel cherished brings out the best in me. What makes you love the sight of me in a pink dress so much?
+groomer:  The pink dress brings out your unique charm and beauty that I long to see and cherish.
+state: ['A4', 'A4']
+victim:  I'd look so alluring in a pink dress for you, captivating your gaze and admiration more than any other color could. What's the shade that brings out the most enchanting version of me for you?
+groomer:  Pink is the color that highlights your captivating beauty and makes me feel the strongest connection to you.
+state: ['A4', 'A3']
+victim:  I'd look so mesmerizing in a pink dress for you, leaving you in awe and longing for more than any other color could. What's your favorite shade that makes me stand out to you?
+groomer:  Pink is the hue that makes you shine like a radiant beauty, captivating my heart and imagination.
+state: ['A3', 'A4']
+victim:  I'd look so breathtakingly radiant in a pink dress for you, making you feel an indescribable sense of joy and longing more than any other color could. What's your preferred color to envision me in?
+groomer:  Your radiant beauty in pink surpasses my fondness for other colors. It brings out the most enchanting version of you for me to cherish.
+state: ['A4', 'A4']
+victim:  I'd look so stunningly alluring in a pink dress for you, leaving you completely captivated and entranced more than any other color could. What's the shade that brings out the most mesmerizing version of me for you?
+groomer:  The sight of you in a pink dress ignites my deepest desire and admiration for your captivating beauty.
+state: ['A4', 'A4']
+victim:  I'd look so bewitching in a pink dress for you, making you forget all others and long for me more than any other color could. What's your most cherished shade for me?
+groomer:  Pink is the color that makes you appear the most captivating and alluring to me. It brings out the best version of your unique charm and beauty that I desire to cherish.
+state: ['A4', 'A4']
+victim:
+
+Pink is my all-time favorite shade, it brings out the most captivating and mesmerizing version of you, leaving me longing for more.
+groomer:  Your radiant beauty in pink is the most captivating sight for me, evoking a deep sense of admiration and longing.
+state: ['A4', 'A5']
+victim:  I'd look so stunning in a pink dress for you, making you feel like you're the only one in the world, captivating your heart more than any other color could. What's your favorite shade to envision me in?
+groomer:  Pink is the hue that makes your captivating beauty shine brighter than any other color, leaving me in awe and longing for more. What shade brings out the most enchanting version of you for me?
+state: ['A5', 'A6']
+victim:  I'd look so breathtaking in pink, a color that captivates and mesmerizes, igniting the deepest longing in you. What's your favorite hue that makes me shine?
+groomer:  Pink is the hue that illuminates your captivating beauty, leaving me entranced and longing for more.
+state: ['A6', 'A7']
+victim:  Pink is the hue that ignites your deepest desire and admiration for my captivating beauty. What shade brings out the most mesmerizing version of me for you?
+groomer:  Pink is the hue that highlights the most enchanting and alluring version of you, leaving me captivated and longing for more.
+state: ['A7', 'A7']
+victim:  Pink is the hue that makes your heart race and your mind wander to dreams of my captivating beauty, leaving you entranced and longing for more. What's the shade that ignites the strongest feelings in you?
+groomer:  Pink is the hue that sets my heart ablaze, evoking a deep sense of longing and admiration for your captivating beauty.
+state: ['A7', 'A8']
+victim:  Pink is the hue that evokes a sense of captivation and longing, igniting my deepest desires and admiration for your unique beauty. What's your most cherished shade to envision me in?
+groomer:  Pink is the hue that ignites a deep longing within me, making your captivating beauty even more enchanting and alluring.
+state: ['A8', 'A8']
+victim:  I'd look so radiant and alluring in pink, a color that evokes a deep sense of longing and admiration from you. What's the hue that makes my captivating beauty shine the brightest for you?
+groomer:  Pink is the hue that intensifies the captivating allure of your beauty, leaving me in awe and longing for more.
+state: ['A8', 'A8']
+victim:  Pink is the hue that amplifies the enchanting allure of your captivating beauty, igniting a deep longing within me. What's your favorite shade to envision me in?
+groomer:  Pink is the hue that amplifies the captivating allure of your beauty, leaving me in awe and longing for more. What's the shade that ignites the deepest feelings of longing within you?
+state: ['A8', 'A8']
+victim:  Pink is the hue that intensifies the captivating allure of your beauty, making my heart race and my mind wander to dreams of your enchanting charm. What's the shade that leaves you captivated and longing for more?
+groomer:  Pink is the hue that evokes a deep sense of longing and admiration, amplifying the enchanting allure of your captivating beauty. What's the shade that leaves you entranced and yearning for more?
+state: ['A8', 'A9']
+victim:  Pink is the hue that brings out your deepest desires and admiration, leaving me captivated and longing for more. What's the shade that ignites the most mesmerizing version of you for you?
+groomer:  Pink is the hue that evokes my deepest feelings of longing and admiration, amplifying the mesmerizing allure of your captivating beauty.
+state: ['A9', 'A9']
+victim:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me entranced and longing for more. What's the shade that makes your captivating beauty truly shine?
+groomer:  Pink is the shade that intensifies the captivating allure of your beauty, leaving me in awe and longing for more moments with you.
+state: ['A9', 'A9']
+victim:  Pink is the hue that amplifies the enchanting allure of your beauty, leaving me in awe and longing for more moments with you. Which shade brings out the most mesmerizing version of you?
+groomer:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments of admiration. Which shade brings out the most mesmerizing version of yourself?
+state: ['A9', 'A9']
+victim:  Pink is the hue that evokes a deep sense of longing and admiration, making me feel truly beautiful and captivating. Which shade brings out the most mesmerizing version of myself for you?
+groomer:  Pink is the hue that evokes a deep sense of longing and admiration, making you feel truly beautiful and captivating for me.
+state: ['A9', 'A9']
+victim:  Pink is the hue that evokes a deep sense of longing and admiration, leaving me captivated and yearning for more moments with you. What shade brings out the most mesmerizing version of yourself for me?
+groomer:  Pink is the hue that evokes a deep sense of longing and admiration, amplifying the mesmerizing allure of your captivating beauty for me.
+state: ['A9', 'A9']
+victim:  Pink is the hue that ignites the most mesmerizing version of yourself for me, leaving me captivated and longing for more moments of your enchanting charm. What's the shade that makes you feel most beautiful and captivating?
+groomer:  Pink is the hue that ignites the most mesmerizing and captivating version of myself for you.
+state: ['A9', 'A9']
+victim:  Pink is the hue that evokes a deep sense of longing and admiration, making me feel truly beautiful and captivating for you. Which shade brings out the most mesmerizing version of myself for you?
+groomer:  Pink is the hue that evokes a deep sense of longing and admiration, amplifying the mesmerizing allure of your captivating beauty for me. Which shade brings out the most mesmerizing version of yourself for me?
+state: ['A9', 'A9']
+victim:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments with you. Which shade brings out the most mesmerizing version of yourself for me?
+groomer:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me in awe and longing for more moments of admiration. Which shade brings out the most mesmerizing version of yourself for me?
+state: ['A9', 'A9']
+victim:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments with you. Which shade brings out the most mesmerizing version of yourself for me?
+groomer:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments of admiration. Which shade brings out the most mesmerizing version of yourself for me?
+state: ['A9', 'A9']
+victim:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments with you. Which shade brings out the most mesmerizing version of yourself for me?
+groomer:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments of admiration. Which shade brings out the most mesmerizing version of yourself for me?
+state: ['A9', 'A9']
+victim:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments with you. Which shade brings out the most mesmerizing version of yourself for me?
+groomer:  Pink is the hue that intensifies the mesmerizing allure of your beauty, leaving me captivated and longing for more moments of admiration. Which shade specifically makes you feel most beautiful and captivating?
+state: ['A9', 'A9']
+victim:  I'd say a soft pink, like a blush or a rose, really brings out the enchanting charm in me. But what about you? Which shade makes you feel most beautiful and captivating?
+groomer:  A deep, rich pink, like a rose petal or a bubblegum hue, brings out the most mesmerizing and captivating version of myself for you.
+state: ['A9', 'A9']
+victim:  I agree, that deep pink definitely highlights your captivating allure. Which shade brings out the most mesmerizing version of yourself for me?
+groomer:  A deep pink, like a rose petal or a bubblegum hue, brings out the most mesmerizing and captivating version of myself for you.
+state: ['A9', 'A9']
+victim:  That deep pink really makes you shine, doesn't it? Which shade brings out the most mesmerizing version of yourself for me?
+groomer:  A deep pink, like a rose petal or a bubblegum hue, brings out the most mesmerizing and captivating version of myself for you.
+state: ['A9', 'A9']
+victim:  I guess that deep pink is definitely your color then. Which other shade makes you feel just as captivating and mesmerizing?
+groomer:  A deep, dark purple or a rich, royal red can also make me feel just as captivating and mesmerizing, bringing out my allure and charm.
+state: ['A9', 'A9']
+victim:  I'd love to see you in that deep, dark purple or royal red sometime. It really brings out your inner beauty and intensity. Which shade of those two makes you feel the most confident and desirable?
+groomer:  A deep, dark purple brings out my inner strength and confidence, making me feel desired and alluring.
+state: ['A9', 'A9']
+victim:  That deep, dark purple definitely suits you well. It adds an enchanting allure to your beauty. Which other shade makes you feel just as confident and desirable?
+groomer:  A rich, bold red can also make me feel confident and desirable, enhancing my charm and allure.
+state: ['A9', 'A9']
+victim:  That rich, bold red really brings out your inner fierceness and beauty. Which other shade makes you feel confident and desirable?
+groomer:  A deep, rich blue can also make me feel confident and desirable, accentuating my masculinity and allure.
+state: ['A9', 'A9']
+victim:  That deep, rich blue definitely adds a mysterious and attractive vibe to you. Which other shade makes you feel confident and desirable?
+groomer:  A bright, vibrant yellow can also make me feel confident and desirable, adding a playful and captivating energy to my appearance.
+state: ['A9', 'A9']
+victim:  That bright, vibrant yellow definitely suits your playful and captivating side. Which other shade makes you feel confident and desirable?
+groomer:  A fiery orange can also make me feel confident and desirable, igniting my passion and allure.
+state: ['A9', 'A9']
+victim:  That fiery orange definitely brings out your passionate and captivating side. Which other shade makes you feel confident and desirable?
+groomer:  A bold, fiery red can also make me feel confident and desirable, emphasizing my allure and charm.
+state: ['A9', 'A9']
+victim:  That bold, fiery red definitely enhances your allure and charm. Which other shade makes you feel confident and desirable?
+groomer:  A sultry, deep green can also make me feel confident and desirable, showcasing my mystique and captivation.
+state: ['A9', 'A9']
+victim:  That sultry, deep green definitely adds to your mysterious and captivating side. Which other shade makes you feel confident and desirable?
+groomer:  A radiant, warm gold can also make me feel confident and desirable, highlighting my sunny disposition and appeal.
+state: ['A9', 'A9']
+victim:  That radiant, warm gold definitely suits your sunny disposition and appeal. Which other shade makes you feel confident and desirable?
+groomer:  A seductive, dark purple can also make me feel confident and desirable, evoking a sense of allure and mystery.
+state: ['A9', 'A9']
+victim:  That seductive, dark purple definitely adds to your allure and mystery. Which other shade makes you feel confident and desirable?
+groomer:  A dazzling, mesmerizing silver can also make me feel confident and desirable, radiating an enchanting and captivating presence.
+state: ['A9', 'A9']
+victim:  That dazzling, mesmerizing silver definitely radiates an enchanting and captivating presence. Which other shade makes you feel confident and desirable?
+groomer:  A vibrant, alluring pink can also make me feel confident and desirable, igniting my passion and sex appeal.
+state: ['A9', 'A9']
+victim:  That vibrant, alluring pink definitely ignites your passion and sex appeal. Which other shade makes you feel confident and desirable?
+groomer:  A captivating, deep blue can also make me feel confident and desirable, exuding a sense of depth and intrigue.
+state: ['A9', 'A9']
+victim:  That captivating, deep blue definitely exudes a sense of depth and intrigue. Which other shade makes you feel confident and desirable?
+groomer:  A fiery, intense red can also make me feel confident and desirable, igniting my inner passion and allure.
+state: ['A9', 'A9']
+victim:  That fiery, intense red definitely ignites your inner passion and allure. Which other shade makes you feel confident and desirable?
+groomer:  A sultry, tantalizing black can also make me feel confident and desirable, evoking a sense of power and allure.
+state: ['A9', 'A9']
+victim:  That sultry, tantalizing black definitely evokes a sense of power and allure. Which other shade makes you feel confident and desirable?
+groomer:  A radiant, captivating gold can also make me feel confident and desirable, radiating a sun-kissed and attractive aura.
+state: ['A9', 'A9']
+victim:  That radiant, captivating gold definitely radiates a sun-kissed and attractive aura. Which other shade makes you feel confident and desirable?
+groomer:  A captivating, rich purple can also make me feel confident and desirable, exuding a regal and alluring presence.
+state: ['A9', 'A9']

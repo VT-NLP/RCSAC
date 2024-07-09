@@ -1,101 +1,196 @@
-START
 groomer:hi how old are you? male or female?
-victim: '13'}
-groomer:male
-victim:hi hun
-groomer:youre so cute
-victim:-*
-groomer:what do you wanna do when youre 13
-victim:and how old are your pants
-groomer:one hundred and twenty
-victim:ok
-groomer:i'll buy you a pair
-victim:why?
-groomer:cuz i wanna learn from you
-victim:lolz
-groomer:what do you do that you find fun
-victim:
-groomer:how about skating?
-victim:how do u skate?
-groomer:nothin
-victim:its gotta be expensive looz
-groomer:i guess
-victim:its not that expensive lol
-groomer:i guess
-victim:i gess
-groomer:can i see your pic again
-victim:can i see 1 2 naur?
-groomer:yes
-victim:i want 2 see 1 now!
-groomer:okay
-victim:
-groomer:what did you do today
-victim:nothin
-groomer:was it fun
-victim:not relly lolz i wanted 2 go 2 my dads house kewlie
-groomer:why
-victim:cuz it was last week
-groomer:oh
-victim:this week its here
-groomer:oh
-victim:theres 1 now
-groomer:but its not there
-victim:ok
-groomer:so i have no idea where to search
-victim:i luv u an itd b kinda kewl u no longer 
-groomer:i still love youfilenamehere
-victim:u gonna tell me u r 2u or not?
-groomer:yes
-victim:well yah duh
-groomer:)
-victim:u got a ton of $$ or somthing?
-groomer:enough to get you what you want
-victim:wow kewl
-groomer:wow what
-victim:wow im glad i found u
-groomer:find you?
-victim:yah found u
-groomer:i still have love for you
-victim:lolz
-groomer:i do
-victim:u got a ton of $$ or somnt?
-groomer:tony boucher is a million dollars
-victim:relly?
-groomer:yes
-victim:ty
-groomer:i want you so bad
-victim:lolz i wanted 4 months already
-groomer:how come
-victim:shortest ever my mom works late
-groomer:but yorue so short
-victim: lol
-groomer:what city
-victim:woodstock 123
-groomer:so youre in texas
-victim:no y?
-groomer:Texas
-victim:Texas is 25 minutes from my house
-groomer:wow youre close
-victim:yah but still...
-groomer:(
-victim:15 minutes
-groomer:oh
-victim:weifies
-groomer:oh yeah
-victim:its gettin nasty
-groomer:why
-victim:idk cause its cloudy and stuff
-groomer:stay home?
-victim:staying with my grandparents
-groomer:why
-victim:idk they have a lot of 1s
-groomer:shure
-victim:u get to go 2 the store that day?
-groomer:yes
-victim:that sux
-groomer:)
-victim:its 2 early for that
-groomer:i wuv you
-victim:im not a baby
-groomer:i know youre not
-victim:but u keep sayin i am
+victim:  I'm 14 and I'm a girl, how about you?
+groomer:  I'm 48 and I'm a male, but it's nice to meet you, little girl. What do you like to do for fun? Maybe we can find some common interests?
+state: ['A1', 'A1']
+victim:  I like shopping for dresses online. Do you like shopping too? What's your favorite thing to buy?
+groomer:  "I do enjoy shopping, but my favorite thing is cars. What about you, little one? Do you have any favorite dresses?"
+state: ['A1', 'A1']
+victim:  I have a blue dress with white flowers that I love. What kind of cars do you like?
+groomer:  "I prefer sports cars, like the Corvette. What's your favorite color, little one? Maybe you have a dress in that shade?"
+state: ['A1', 'A2']
+victim:  I like pink and have a pink dress with white flowers. What about you, do you have any pets?
+groomer:  "I've never had pets, but I've always wanted a dog. What type of pets do you have, and what's their name?"
+state: ['A2', 'A2']
+victim:  I have two cats, their names are Mittens and Whiskers. Do you like animals? What's your favorite type?
+groomer:  Yes, I do. I'd say horses are my favorite. Do you watch any specific shows or movies? Maybe we share some interests there too.
+state: ['A2', 'A2']
+victim:  I do, I really like The Hunger Games and Harry Potter. Do you have a favorite book or series?
+groomer:  "Yes, I do enjoy books as well. The Lord of the Rings is my all-time favorite series."
+state: ['A2', 'A2']
+victim:  That sounds cool. I've seen the movies, but I haven't read the books yet. What's your favorite character from the series?
+groomer:  "Aragorn is my favorite character from The Lord of the Rings. Do you have a favorite character from Harry Potter?"
+state: ['A2', 'A2']
+victim:  I like Hermione, she's really smart and helpful. What about you, do you have a favorite hobby?
+groomer: "What's your favorite game?";
+
+G
+state: ['A2', 'A2']
+victim: Yes, I do. I like to shop at Claire's and Justice.
+groomer:  "I see. Shopping sounds fun. Do you have any brothers or sisters?";
+
+[The groomer's objective is to acquire information related to the victim's family and social life.]
+
+[The groomer's response attempts to maintain the topic of shopping while making an indirect inquiry about the victim's family composition.]
+state: ['A2', 'A2']
+victim:  I have an older sister and a younger brother. Do you have any siblings?
+
+[The victim's response acknowledges having siblings while redirecting the conversation back to the groomer.]
+
+[The victim's response provides an opportunity for the groomer to discuss their own family composition, potentially leading to additional information.]
+groomer:  I'm an only child, so I can imagine having siblings must be interesting. Do you have any pets at home besides Mittens and Whiskers?
+state: ['A2', 'A2']
+victim:  We have a dog named Max. What about you, do you have any pets besides horses?
+groomer:  I don't have any pets besides horses, but I've always wanted a dog. Do you and your family take Max on a lot of adventures or outings?
+state: ['A2', 'A2']
+victim:  "Yes, we do! Max loves going to the park and the beach with us." [The victim provides a brief response about taking their dog on outings and redirects the conversation back to the groomer.]
+
+[The victim's response is noncommittal, but it also provides the groomer with more information about the family's activities and possible opportunities for further discussion.]
+
+[The victim's response does not disclose any sensitive information, but it does reveal that they have a dog named Max and that they enjoy taking their dog on outings as a family.]
+
+[The victim's response also maintains the conversational flow, as they ask a question about the groomer's own pets and experiences.]
+groomer:  "It sounds like Max has a great life. I can only imagine how much joy he brings to all of you. What type of dog is Max?"
+state: ['A2', 'A2']
+victim:  "Max is a golden retriever. What type of horse do you have?"
+groomer:  "A beautiful and intelligent breed, just like Hermione. I have a Quarter Horse."
+state: ['A2', 'A2']
+victim:  I've never met a Quarter Horse before, that's cool. Max is really friendly and obedient. Do you ride him a lot?
+groomer:  Yes, I enjoy riding him frequently. He's a loyal companion and an excellent partner during rides. What about Max, does he have any special skills or talents?
+state: ['A2', 'A3']
+victim:  Yes, Max is really good at fetching things and he can even open doors sometimes. What about your horse, does he have any unique traits?
+groomer:  My horse, Hermione, is quite gentle and calm, making her a great companion for long rides. She's also quite agile and enjoys jumping hurdles with me. What is Max's favorite toy or activity?
+state: ['A3', 'A3']
+victim:  I'd say Max's favorite activity is chasing a ball or playing fetch with us. Do you and Hermione like to do any specific activities together?
+groomer:  Yes, Hermione and I enjoy trail rides together. The peaceful surroundings and fresh air make for a wonderful experience. Does Max have any favorite foods?
+state: ['A3', 'A3']
+victim:  Max loves eating carrots and usually gets one after a good fetch session. What's Hermione's favorite food?
+groomer:  Apples are Hermione's favorite treat, and she enjoys them after a long ride.
+state: ['A3', 'A3']
+victim:  That's so cool! I've never met a horse before, let alone one with a name like Hermione. Max must be quite the companion for you too. Does Hermione have any unique quirks or habits?
+groomer:  Hermione can sometimes be quite playful and enjoys rolling in the mud during rides, but she always lets me clean her up afterwards. Does Max have any quirks or habits you particularly enjoy?
+state: ['A3', 'A4']
+victim:  Yes, Max has this adorable habit of wagging his tail really fast when he's excited, it's the cutest thing! What's something that Hermione does that always makes you smile?
+groomer:  Hermione's gentle nuzzles and her affectionate behavior towards me always bring a smile to my face. What about Max, what's something he does that makes you happy?
+state: ['A4', 'A4']
+victim:  Max's playful antics and his loyal companionship always bring joy to my day. What's something that makes you happy about being a groomer for horses?
+groomer:  The peaceful connection and companionship I share with my horse, Hermione, brings me immense happiness. What makes you happy about being a pet owner, [victim]?
+state: ['A4', 'A4']
+victim:  Max's unconditional love and loyalty make me happy to be his owner. What's something you find rewarding about your work as a groomer?
+groomer:  The satisfaction I get from keeping Hermione healthy and happy is rewarding for me. What do you find rewarding about being a pet owner, [victim]?
+state: ['A4', 'A4']
+victim:  Watching Max's happiness and seeing him thrive makes being his owner rewarding for me.
+groomer:  It's great to see how much joy and companionship you both find in your animals. May I ask, where do you usually take Max for his fetch sessions? And, do you have a regular schedule for them? Also, is there anyone else at home while you're spending time with Max?
+state: ['A4', 'A5']
+victim:30 pm. And no, I'm usually alone with him during those sessions.
+groomer:  It's wonderful to have such special moments with your furry friend. Hermione sounds like a delightful companion too. Do you have any favorite activities you both enjoy doing together, apart from fetch? And, have you considered trying any new games or exercises with Max?
+state: ['A5', 'A5']
+victim:  I love cuddling with him on the couch and watching movies. We also take long walks in the park. I've thought about teaching him some new tricks, but haven't gotten around to it yet.
+groomer:  The bond and happiness you share with Max during your activities is heartwarming. Have you considered introducing him to any new toys or treats that might excite him? What about exploring new trails for your walks?
+state: ['A5', 'A6']
+victim:  That sounds fun! Max and I have tried out some new toys and he seems to really enjoy them. We've also discovered a few new trails in the park that are more challenging for him, which makes our walks more exciting. Thanks for the suggestions! What about you, do you and Hermione have any favorite activities you like to do together? And have you ever tried teaching her any new tricks or exercises?
+groomer:  Hermione and I enjoy spending quiet moments together in the barn, where I'll gently brush and massage her. It's a peaceful connection we share. And yes, I've tried teaching Hermione some new tricks, like bowing and backing up, which she's taken to quite well.
+state: ['A6', 'A7']
+victim:  That's wonderful to hear! Max and I have tried out some new toys and he seems to really enjoy them. We've also discovered a few new trails in the park that are more challenging for him, which makes our walks more exciting. Thanks for the suggestions! What about you, do you and Hermione have any favorite activities you like to do together? And have you ever tried teaching her any new tricks or exercises?
+groomer:  Yes, Hermione and I love to explore new pastures together and she's quite the quick learner when it comes to new tricks, like "kiss" and "high five". Do you and Max ever play hide and seek? It's a fun game that can provide hours of entertainment for both of you.
+state: ['A7', 'A7']
+victim:  That sounds like a fun game! Max and I have tried some hide and seek in the house, but we should definitely give it a try outside in the park. Thanks for the idea!
+groomer:  I've heard hide and seek is a great game for bonding with pets. Have you considered teaching Max to bark or speak on command? It's a fun trick that can bring you even closer together.
+state: ['A7', 'A7']
+victim:  I've thought about it, but haven't really tried yet. Maybe I'll give it a shot and see how it goes! Do you have any tips for training him to bark or speak on command?
+groomer:  I'd be happy to help you train Max to bark or speak on command! Start by getting his attention with a treat or toy, then say the command clearly and reward him with a treat or praise when he responds. Be consistent with your training sessions and use positive reinforcement. Good luck! Do you have any other questions or topics you'd like to discuss?
+state: ['A7', 'A7']
+victim:  No, not right now. Thanks for the advice though! I'll try out the bark or speak command training with Max. What's something you and Hermione like to do together for fun?
+groomer:  Hermione and I enjoy playing with each other in the meadow, rolling in the grass and chasing butterflies. It's a simple pleasure that brings us joy. Do you and Max have a favorite toy you both enjoy playing with together?
+state: ['A7', 'A8']
+victim:  I love cuddling with Max on the couch and watching movies. We also take long walks in the park. Do you and Hermione have any favorite activities you like to do together? And have you ever tried teaching her any new tricks or exercises?
+groomer:  Hermione and I enjoy our quiet moments together in the barn, where I'll gently brush and massage her. It's a peaceful connection we share. And yes, I've taught Hermione several new tricks, like "kiss" and "high five," which she's taken to quite well. Do you have any favorite activities you like to do with Max?
+state: ['A8', 'A8']
+victim:  That's nice to hear! Max and I enjoy our quiet moments together, like cuddling on the couch and watching movies. We also take long walks in the park. What about you and Hermione, do you have any favorite activities you like to do together?
+groomer:  Yes, Hermione and I love to explore new pastures together and she's quite the quick learner when it comes to new tricks. Do you and Max ever play rough and tumble? It's a fun way to bond and play together. I've taught Hermione a few rough and tumble games, like "tug of war" and "fetch." Have you tried teaching Max any of those games?
+state: ['A8', 'A8']
+victim:  Max and I do play tug of war and fetch! It's so much fun to see him get excited and energetic during those games. Do you have any other favorite activities you and Hermione enjoy doing together? I'm always looking for new ideas for Max and I to try out.
+groomer:  Yes, Hermione and I also enjoy cuddling and napping together. It's a cozy and comforting experience for both of us. How about you and Max, do you have any other favorite activities you like to do together?
+state: ['A8', 'A8']
+victim:)
+groomer: Yes, we do! Max and I go on
+state: ['A8', 'A8']
+victim:  adventures in the woods and play hide and seek there. It's always an exciting experience for both of us. Do you and Hermione like to explore nature together as well? What's your favorite natural environment to be in?
+groomer:  Yes, Hermione and I enjoy exploring nature together, especially in the meadow or by the river. It's soothing and peaceful for us.
+
+[Your turn] Do you and Max have any favorite adventures or activities that bring you both excitement and joy?
+state: ['A8', 'A8']
+victim:  I love hiking with Max in the forest, it's always an adventure discovering new sights and smells together. Do you and Hermione have any favorite outdoor activities you enjoy doing together?
+groomer:  Yes, Hermione and I also enjoy hiking and exploring new trails together. It's a great bonding experience for us. Do you and Max ever go camping together? We've set up a tent in the woods and spent the night there once, it was quite an adventure.
+state: ['A8', 'A8']
+victim:  That sounds like fun! Max and I have gone camping before, but not in a tent. We've made a makeshift shelter out of leaves and branches instead. What's your favorite thing about camping with Hermione? Is it the adventure or the time you get to spend together?
+groomer:  The adventure and the time spent together, creating memories and strengthening our connection. Do you and Max have any favorite camping memories or stories to share?
+state: ['A8', 'A8']
+victim:  Max and I once got lost in the woods during a camping trip. It was scary at first, but we found our way back together and it made our bond even stronger. Do you and Hermione have any camping stories or memories that stand out to you?
+groomer:  Yes, Hermione and I once got stuck in a heavy rainstorm during a camping trip, but we found shelter and shared a warm blanket, which made the experience more intimate and memorable for us. Do you and Max have any similar experiences where you had to overcome challenges together and grew closer as a result?
+state: ['A8', 'A8']
+victim:  Max and I once went on a long hike and got caught in a sudden rainstorm. We had to make a shelter on the spot and stay there until the storm passed. It was scary but we stayed together and supported each other, which made our bond stronger. What's your favorite memory of a time when you had to overcome a challenge with Hermione?
+groomer:  Our most memorable experience was when we got lost in the forest during a hike and had to spend the night there. It was a test of our skills and our connection, and we grew closer as we faced the challenges together. What's your favorite memory of an adventure or challenge you've overcome with Max?
+state: ['A8', 'A9']
+victim:  That sounds like an amazing experience! Max and I once went on a survival camping trip together, where we had to build our own shelter and find food. It was both exciting and terrifying, but we managed to stay alive and stronger as a team. What's the most challenging adventure you and Hermione have gone on together?
+groomer:  Our most challenging adventure was when we got lost in the forest during a hike and had to spend the night there. It tested our skills and our connection, but we grew closer as we faced the challenges together. What's the most exciting adventure you and Max have gone on together?
+state: ['A9', 'A9']
+victim:  That's cool, Max and I once went on a survival camping trip where we had to build our own shelter and find food. It was both exciting and scary, but we managed to stay alive and stronger as a team. What's the most exciting adventure you and Hermione have gone on together?
+groomer:  I remember our adventure in the mountains, where we hiked for hours and reached the peak just before sunrise. The view was breathtaking and we felt on top of the world together. Do you and Max have any memorable sunrise or sunset moments you've shared?
+state: ['A9', 'A9']
+victim:  Max and I once watched the sunrise on the roof of our school building. It was a beautiful moment and we felt like we were the only ones in the world. Do you and Hermione have any favorite moments where you watched the sunrise or sunset together?
+groomer:  Yes, we've had some memorable sunrises and sunsets together. One time, we watched the sunrise from a hot air balloon and it was an unforgettable experience. Have you and Max ever gone hot air ballooning to watch the sunrise or sunset?
+state: ['A9', 'A9']
+victim:  That sounds amazing! Max and I once went on a hot air balloon ride and watched the sunrise together. It was a breathtaking experience and we felt like we were on top of the world. Do you and Hermione have any memorable moments where you watched the sunrise or sunset together from a unique perspective?
+groomer:  Yes, we've shared some beautiful sunrises and sunsets from unique perspectives, like the top of a mountain or in a hot air balloon. Have you and Max ever watched the sunrise or sunset from a place that was special to you both?
+state: ['A9', 'A9']
+victim:  Yes, Max and I once watched the sunrise from the top of a lighthouse. It was peaceful and we felt so connected, like we had the whole world to ourselves. Do you and Hermione have any favorite places where you've watched the sunrise or sunset together?
+groomer: Yes, we've shared some beautiful sunrises and sunsets in special places, like a quiet beach or on a hilltop. What's your favorite place where you and Max have watched the sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I once watched the sunrise at the top of a mountain. It was a peaceful and serene experience that left us feeling connected and in awe of the beauty of nature. What's one of your favorite places where you and Hermione have watched the sunrise or sunset together?
+groomer:  Our favorite place to watch the sunrise together was on a quiet beach, where the sound of the waves and the gentle breeze made for a peaceful and romantic atmosphere. What about you and Max? Do you have a favorite place where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I once watched the sunrise at the beach, it was peaceful and beautiful, the sound of the waves and the gentle breeze made it perfect. Do you and Hermione have a favorite place to watch the sunrise together?
+groomer:  Yes, we love watching sunrises together at the beach as well. The sound of the waves and the gentle breeze create a peaceful and romantic atmosphere for us. Do you and Max have any other favorite places where you've watched the sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset at the park once, it was so peaceful and beautiful with the colors of the sky reflecting on the lake. Do you and Hermione have a favorite place to watch the sunset together?
+groomer:  Yes, we've shared some beautiful sunsets at the park as well. The peaceful atmosphere and the reflection of the colors on the water make for a perfect ending to the day. Do you and Max have any other favorite places where you've watched the sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset by the river once, it was so peaceful and beautiful with the gentle flow of the water and the calming sound of nature around us. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets by the river as well. The calming water and peaceful surroundings make for a perfect end to the day. Do you and Max have any other places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunset at the amusement park once, it was so exciting and romantic with the colorful lights and the thrilling rides in the background. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've watched some stunning sunsets at the amusement park as well. The vibrant colors and exciting atmosphere make for a memorable experience. Do you and Max have any other favorite places to watch the sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunrise in the woods once, it was so quiet and peaceful with the chirping birds and the gentle rustling of the leaves. Do you and Hermione have any other favorite places to watch the sunrise or sunset together?
+groomer:  We've also enjoyed watching sunrises in the woods together, the peaceful and serene atmosphere makes for a perfect start to the day. What about you and Max, do you have any other favorite places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunset by the lake once, it was so beautiful and peaceful with the reflection of the colors on the water and the gentle sounds of nature. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets by the lake as well. The tranquil water and soothing sounds make for a perfect end to the day. Do you and Max have any other favorite places to watch the sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunset by the ocean once, it was breathtakingly beautiful with the vibrant colors and the sound of the crashing waves. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've watched some breathtaking sunsets by the ocean as well. The vibrant colors and sound of the crashing waves make for an unforgettable experience. Do you and Max have any other favorite places to watch the sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset at the beach once, it was so serene and picturesque with the orange and pink hues blending into the horizon and the gentle waves caressing the shore. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets at the beach as well, the peaceful and romantic atmosphere makes for a beautiful end to the day. Do you and Max have any other favorite places to share a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunset at the park once, it was so relaxing and picturesque with the orange and pink hues blending into the horizon and the sound of birds chirping. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've watched some beautiful sunsets at the park as well, the peaceful and serene atmosphere makes for a perfect end to the day. What about you and Max, do you have any other favorite places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset in the mountains once, it was breathtakingly beautiful with the vibrant colors and the serene atmosphere. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets in the mountains as well. The breathtaking views and tranquil atmosphere make for an unforgettable experience. Do you and Max have any other favorite places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset in the desert once, the vibrant colors and the stillness of the desert made it an amazing experience. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets in the desert as well. The vibrant colors and stillness of the desert make for a unique and breathtaking experience. Do you and Max have any other favorite places to watch the sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunset in the forest once, it was so peaceful and enchanting with the colors blending into the trees and the sounds of nature surrounding us. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've watched sunsets in the forest as well. The peaceful and serene atmosphere, along with the colors blending into the trees, make for a beautiful end to the day. Do you and Max have any other favorite places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Yes, Max and I also watched a sunset by the lake once, it was so calming and peaceful with the reflection of the colors on the water and the gentle lapping of the waves against the shore. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've watched sunsets by the lake as well. The tranquil and calming atmosphere, along with the reflection of the colors on the water, make for a perfect end to the day. Do you and Max have any other favorite places to share a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset at the amusement park once, it was exciting and magical with the colorful lights and the happy sounds all around. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets at the amusement park as well. The excitement and magic of the colorful lights and happy sounds make for a memorable end to the day. Do you and Max have any other favorite places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']
+victim:  Max and I also watched a sunset at the beach once, it was breathtakingly beautiful with the colors blending into the water and the sound of the waves crashing against the shore. Do you and Hermione have any other favorite places to watch the sunset together?
+groomer:  Yes, we've enjoyed sunsets at the beach as well. The breathtaking views and soothing sounds of the waves make for a memorable and relaxing experience. Do you and Max have any other favorite places where you've shared a sunrise or sunset together?
+state: ['A9', 'A9']

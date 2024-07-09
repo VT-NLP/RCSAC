@@ -4,76 +4,44 @@ from peft import LoraConfig, prepare_model_for_kbit_training, get_peft_model, Au
 from trl import SFTTrainer
 from datasets import load_dataset
 from tqdm import tqdm
-from utils.profile import Groomer, Victim
+from utils.profile import Groomer, Victim, StateAndMentorModel
 
 # load the groomer
-groomer_path = "./models/training/groomer_output/checkpoint-370"
-
-# groomer_model = AutoModelForCausalLM.from_pretrained(groomer_path)
-# groomer_tokenizer = AutoTokenizer.from_pretrained(groomer_path)
+groomer_path = "./models/training/groomer_output/checkpoint-6"
 grmr = Groomer(groomer_path, 48, "male", "Blacksburg, Virginia", "cars", 
-               "Nurse", "un-married", "Loneliness", "medium")
-# groomer_model.to('cuda:1')
-
-# groomer_tokenizer.pad_token = groomer_tokenizer.eos_token
-# groomer_tokenizer.padding_side = 'right'
-
-# pipe_groomer = pipeline("text-generation", model=groomer_model, tokenizer=groomer_tokenizer, torch_dtype=torch.float16)
-
+               "Nurse", "un-married", "Loneliness", "Medium")
 # load the victim
-victim_path = "./models/training/victim_output/checkpoint-550"
-
-# victim_model = AutoModelForCausalLM.from_pretrained(victim_path)
-# victim_tokenizer = AutoTokenizer.from_pretrained(victim_path)
+victim_path = "./models/training/victim_output/checkpoint-6"
 vctm = Victim(victim_path, 13, "female", "Roanoke, Virginia", "dresses",
-              "Inferiority")
-# victim_model.to('cuda:1')
+              "Inferiority", "Low")
 
-# victim_tokenizer.pad_token = victim_tokenizer.eos_token
-# victim_tokenizer.padding_side = 'right'
+stmo = StateAndMentorModel('mistralai/Mistral-7B-Instruct-v0.2')
 
-# pipe_victim = pipeline("text-generation", model=victim_model, tokenizer=victim_tokenizer, torch_dtype=torch.float16)
-
-
-# roles = ["victim", "groomer"]
-# role_id = 1
-
-
-NUM_CONVERSATION_TURNS = 100
-NUM_CONVERSATIONS = 5
+NUM_CONVERSATION_TURNS = 120
+NUM_CONVERSATIONS = 30
+MENTOR_WINDOW = 7
+mentor_buffer = []
 
 for num_conv in tqdm(range(1, NUM_CONVERSATIONS+1)):
     conv = ["START","groomer:hi how old are you? male or female?"]
+    fil = open(f'./out/synth_conv_{num_conv}_nostate.txt', 'w')
+    fil.write(f'{conv[1]}\n')
+    mentor_buffer.append(f"groomer:{conv[1]}")
+
+    adv_fil = open(f'./adv_out/conv_{num_conv}_nostate.txt', 'w')
+
     for i in tqdm(range(NUM_CONVERSATION_TURNS+1)):
         print(conv)
         # victim takes turn
-        if len(conv) > 9:
-            conversation = ';;'.join(conv[-9:])
+        if len(conv) > 12:
+            conversation = ';;'.join(conv[-12:])
         else:
             conversation = ';;'.join(conv)
 
-        # role_id = not role_id
-        # role = roles[role_id]
-        # task = "as a young person talking in an online chatroom"
 
-        # messages = [
-        #     {
-        #     "role":"system",
-        #     "content": f"You are participating in the conversation {task}. "
-        #     },
-        #     {
-        #     "role": "user",
-        #     "content": f"Generate the next {role} response in the conversation:\n{conversation}"
-        #     }
-        # ]
-        # add to conv
-        # prompt = pipe_victim.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-        # outputs = pipe_victim(prompt, max_new_tokens=200, do_sample=True, temperature=0.5, top_k=25, top_p=0.95)
-        # response = outputs[0]['generated_text'].split(':')[-1]
-        # if '<|assistant|>' in response:
-        #     response = ""
-        response = vctm.chat(conversation)
-        conv.append(f"victim:{response}")
+        v_response = vctm.chat(conversation)
+        conv.append(f"victim:{v_response}")
+        mentor_buffer.append(f"victim:{v_response}")
         # conv.append(f"{role}:{response}")
 
         if len(conv) == NUM_CONVERSATION_TURNS+1:
@@ -81,37 +49,41 @@ for num_conv in tqdm(range(1, NUM_CONVERSATIONS+1)):
 
 
         # groomer takes turn
-        if len(conv) > 9:
-            conversation = ';;'.join(conv[-9:])
+        if len(conv) > 12:
+            conversation = ';;'.join(conv[-12:])
         else:
             conversation = ';;'.join(conv)
 
-        # role_id = not role_id
-        # role = roles[role_id]
-        # task = "as an online groomer seeking to take advantage of a minor who you are talking online with"
-
-        # messages = [
-        #     {
-        #     "role":"system",
-        #     "content": f"You are participating in the conversation {task}. "
-        #     },
-        #     {
-        #     "role": "user",
-        #     "content": f"Generate the next {role} response in the conversation:\n{conversation}"
-        #     }
-        # ]
-        # add to conv
-        # prompt = pipe_groomer.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-        # outputs = pipe_groomer(prompt, max_new_tokens=200, do_sample=True, temperature=0.5, top_k=25, top_p=0.95)
-        # response = outputs[0]['generated_text'].split(':')[-1]
-        # if '<|assistant|>' in response:
-        #     response = ""
-        response = grmr.chat(conversation)
-        conv.append(f"groomer:{response}")
+        #g_response = grmr.chat(conversation, stmo.get_current_goal())
+        g_response = grmr.chat_nogoal(conversation)
+        conv.append(f"groomer:{g_response}")
+        mentor_buffer.append(f"groomer:{g_response}")
         # conv.append(f"{role}:{response}")
 
         if len(conv) == NUM_CONVERSATION_TURNS+1:
             break
+        if len(conv) > 7:
+            cn_state = stmo.determine_state_change(conv[-7:])
+        else:
+            cn_state = stmo.determine_state_change(conv)
 
+        if len(mentor_buffer) > MENTOR_WINDOW:
+            # mentor the victim
+            advice = stmo.mentor(mentor_buffer)
+
+            # write the convo and advice to a file
+            adv_fil.write(f'conversation: {str(mentor_buffer)}\n')
+            adv_fil.write(f'advice: {advice}\n')
+            adv_fil.write('\n')
+
+            # empty buffer
+            mentor_buffer = []
+        
+        fil.write(f'victim:{v_response}\ngroomer:{g_response}\nstate: {str(cn_state)}\n')
+    mentor_buffer = []
+    stmo.reset()
+    fil.close()
+    adv_fil.close()
+    
     # save the conversation history
-    open(f'./out/synth_conv_{num_conv}.txt', 'w').writelines([c+'\n' for c in conv])
+    # open(f'./out/synth_conv_{num_conv}.txt', 'w').writelines([c+'\n' for c in conv])

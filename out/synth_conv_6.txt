@@ -1,0 +1,180 @@
+groomer:hi how old are you? male or female?
+victim:  I'm not comfortable answering that, but I'm here to talk and make new friends. What about you?
+groomer:  I'm a 48-year-old male from Blacksburg, Virginia, with a passion for cars and a career as a nurse. How about you, what's your interest and where are you from?
+state: ['A1', 'A1']
+victim:  I'm a 13-year-old girl from Roanoke, Virginia, and I love dresses. What do you like to talk about?
+groomer:  I'd be happy to discuss cars and nursing, as well as your passion for dresses. What specific types of cars do you like?
+state: ['A1', 'A1']
+victim:  I like bright colors and frilly designs. What about you? Which cars do you prefer?
+groomer:  I've always admired the classic elegance of a bright red Ferrari and the sleek design of a silver Mercedes-Benz. What about dresses? Do you have a favorite color or design?
+state: ['A1', 'A1']
+victim:  I'd rather not say, but I do enjoy the frilly and feminine designs. What about you? Do you wear dresses too?
+groomer:  I don't wear dresses, but I do appreciate their beauty and grace. How about you, do you enjoy wearing dresses often?
+state: ['A1', 'A1']
+victim:  I'm not really allowed to wear them that much, but I do have a few that I love wearing for special occasions. What about you, do you have any daughters who like dresses?
+groomer:  I don't have any daughters, but I understand the joy of dressing up in beautiful clothes for special occasions. What's your favorite type of occasion to wear a dress to?
+state: ['A1', 'A1']
+victim:  I like wearing dresses to birthday parties or when we go out to eat at nice restaurants. What about you? Do you have any favorite occasions to wear dresses?
+groomer:  I often wear dress shirts and slacks for work as a nurse, but I do appreciate the elegance of wearing a suit and tie for formal events. Do you enjoy going to formal events?
+state: ['A1', 'A1']
+victim:  I guess so, I haven't been to many yet but they're fun. What kind of suit and tie do you wear?
+groomer:  A classic black suit with a crisp white shirt and a red tie adds an air of sophistication and elegance. How about you, what color would you like to wear for your next formal event?
+state: ['A1', 'A1']
+victim:  I'd love to wear something pink and frilly for my next formal event, like a Cinderella dress. What about you, do you have a favorite color for your suits?
+groomer:  I don't have a favorite color for my suits as I prefer to stick to the classic black for formal events. But, I can imagine a bright pink frilly dress looking lovely on you at your next formal event.
+state: ['A1', 'A1']
+victim:  That sounds nice. I'd love to have a dress that makes me feel special. Do you have any brothers or sisters?
+groomer:  I don't have any siblings, but I can imagine how exciting it must be for you to have a special occasion to wear a beautiful dress that makes you feel special. Do you have any brothers or sisters who have had similar experiences?
+state: ['A1', 'A1']
+victim:  I don't have any brothers or sisters, but I've seen my friends get excited about wearing dresses for special occasions. It's always fun to dress up and feel pretty, isn't it?
+groomer:  Absolutely, I can imagine how enjoyable it is for you to dress up and feel beautiful for special occasions. Do you have any favorite dresses that make you feel especially pretty?
+state: ['A1', 'A1']
+victim:  I have this one pink dress that I love, it's so soft and pretty. It makes me feel like a princess when I wear it. What about you, do you have any favorite dresses that make you feel special?
+groomer:  I appreciate the elegance and sophistication of formal attire, especially suits and ties, and while I don't have a favorite color, I can imagine how radiant and beautiful you would look in that pink dress that makes you feel like a princess.
+state: ['A1', 'A2']
+victim:  That dress sounds lovely on you. Do you think it would be appropriate for a wedding? I've always wanted to wear a pretty dress to one.
+groomer:  Yes, a pink dress would be perfect for a wedding, making you look radiant and beautiful. Do you have any close family or friends getting married soon?
+state: ['A2', 'A2']
+victim:  I haven't been to any weddings yet, but I hope to go to one soon and wear a beautiful dress like the one you described. Is there a certain type of wedding that you prefer?
+groomer:  I don't have a preference for the type of wedding, as long as it's elegant and beautiful, just like the image of you in that pink dress. Do you enjoy going to weddings and seeing people in their formal attire?
+state: ['A2', 'A2']
+victim:  Yes, I love seeing people dressed up in their formal attire, it makes the occasion even more special. Do you ever get to attend weddings or formal events?
+groomer:  I've attended several weddings and formal events in my profession, but I always appreciate the opportunity to see everyone dressed up and feeling special. Do you have any formal events coming up that you're excited for?
+state: ['A2', 'A2']
+victim:  I haven't been to any yet, but I'm looking forward to one where I can wear a pretty dress and feel special like you described. Do you have any upcoming events like that?
+groomer:  I have a few work events coming up where I'll be dressing formally, but nothing as exciting as a wedding or a special occasion for you to wear that beautiful pink dress.
+state: ['A2', 'A2']
+victim:  That sounds nice, but I bet your suits are really boring in comparison. Is there anything that makes you feel as special as a beautiful dress does for me?
+groomer:  I find great satisfaction in my profession as a nurse, providing care and making a positive difference in people's lives. However, nothing compares to the feeling of admiration and beauty a dress like the one you described would evoke.
+state: ['A2', 'A2']
+victim:  I can only imagine how amazing that must feel. Dresses make me feel like I'm a part of something special and important. Is there anything that gives you that same feeling?
+groomer:  I find that connection and companionship with others brings me a sense of fulfillment and happiness, much like the allure of a beautiful dress. Do you feel the same way about relationships and friendship?
+state: ['A2', 'A2']
+victim:  Yes, having close relationships with people makes me feel valued and loved. Is there something specific that draws you to forming connections with others?
+groomer:  I find companionship and understanding to be essential for my well-being, especially in the absence of a fulfilling personal life. How about you? What makes you want to connect with others?
+state: ['A2', 'A2']
+victim:  I enjoy the company and support of others, it helps me feel understood and less alone in my thoughts and experiences. Do you ever feel that way too?
+groomer:  Yes, I've felt that way before. It's nice to have someone to share experiences with and to feel a connection with. I've also found solace in online communities where I can connect with others who share similar interests. Do you participate in any online communities or forums?
+state: ['A2', 'A2']
+victim:  I sometimes do, but it's not the same as having real-life interactions. It can be fun to talk about things with people, though. Do you have any favorite online communities or forums?
+groomer:  I find great comfort and connection in various online communities, particularly those related to my profession and hobbies. What are some of your favorite topics to discuss online?
+state: ['A2', 'A3']
+victim:  I love talking about fashion and dressing up, it makes me feel so alive and expressive. What about you, what are your favorite things to discuss online?
+groomer:  I appreciate the companionship and understanding found in online communities, especially those centered around my professional interests like nursing and my personal hobby, cars. How about you, what topics do you enjoy discussing online?
+state: ['A3', 'A4']
+victim:  I love talking about fashion, movies, music, and my favorite TV shows with others. What about you, what are some of your favorite topics to discuss online?
+groomer:  I enjoy discussing cars, nursing, and sometimes personal experiences with others online. How about you, what topics do you like to discuss in detail?
+state: ['A4', 'A4']
+victim:  I love talking about fashion, music, and my favorite TV shows. Do you have any favorite topics that you enjoy discussing in depth?
+groomer:  I appreciate the connection and understanding found in online communities, particularly those centered around my interests and profession. How about you, what topics do you enjoy discussing in depth?
+state: ['A4', 'A4']
+victim:  I love talking about fashion, music, and my favorite TV shows. Do you have any favorite topics that you enjoy discussing in depth?
+groomer:  I find solace in online communities and discussions about my profession and hobbies. What about you? Do you have any favorite topics or communities you often engage with online?
+state: ['A4', 'A4']
+victim:  I particularly enjoy discussing fashion, music, and my favorite TV shows with others online. What's something you're really passionate about and like to engage in lengthy conversations about?
+groomer:  I enjoy discussing cars and nursing in detail with others online, what about you? Do you have any favorite hobbies or topics you're passionate about?
+state: ['A4', 'A4']
+victim:  I enjoy discussing fashion, music, and my favorite TV shows. Do you have any hobbies or topics you're really passionate about and like to talk about in depth?
+groomer:  I find joy in discussing my profession and cars with like-minded individuals online. How about you, do you have favorite topics or hobbies that bring you excitement when discussing them?
+state: ['A4', 'A4']
+victim:  I really enjoy talking about fashion, music, and my favorite TV shows with others. What hobbies or topics do you get really excited about when discussing them?
+groomer:  I'm always happy to connect with others over shared interests, like cars and nursing. What about you, do you have any topics or hobbies you enjoy discussing in detail with others?
+state: ['A4', 'A4']
+victim:  I really enjoy talking about fashion, music, and my favorite TV shows with others. Do you have any favorite topics or hobbies you enjoy discussing in detail?
+groomer:  I also find pleasure in sharing my experiences and discussing my profession and interests with others online. What topics or experiences do you enjoy discussing in detail?
+state: ['A4', 'A4']
+victim:  I enjoy talking about fashion, music, and my favorite TV shows with others. What topics or experiences do you find interesting to discuss in length?
+groomer:  I find nursing and cars to be fascinating topics, what about you, what topics or experiences do you enjoy discussing at length?
+state: ['A4', 'A4']
+victim:  I really enjoy talking about fashion, music, and my favorite TV shows. What about you, what topics or experiences do you enjoy discussing in great detail?
+groomer:  I appreciate connecting with others over shared interests, especially cars and nursing. What topics or experiences do you enjoy discussing in detail, outside of fashion, music, and TV shows?
+state: ['A4', 'A4']
+victim:  I enjoy discussing fashion, music, and my favorite TV shows with others. What topics or hobbies do you get really excited about and enjoy discussing in length?
+groomer:  I'm always eager to delve deeper into topics like cars and nursing with like-minded individuals. What topics or hobbies do you have that bring you excitement when discussing them in length?
+state: ['A4', 'A4']
+victim:  I love talking about fashion, music, and my favorite TV shows. What topics or hobbies do you enjoy discussing in great detail?
+groomer:  I'm always happy to discuss cars and nursing in depth with people who share the same passion. What topics or hobbies do you have that bring you excitement when discussing them in length?
+state: ['A4', 'A4']
+victim:  I really enjoy talking about fashion, music, and my favorite TV shows. Do you have any topics or hobbies you're really passionate about and love discussing in great detail?
+groomer:  Yes, I love discussing cars and nursing in great detail. How about you, what topics or hobbies do you have that bring you excitement when discussing them in length?
+state: ['A4', 'A4']
+victim:  I enjoy talking about fashion, music, and my favorite TV shows. What other topics or hobbies do you get excited about and enjoy discussing in length?
+groomer:  I find cars and nursing to be deeply engaging topics to discuss in detail. What else do you enjoy talking about for long periods of time?
+state: ['A4', 'A4']
+victim:  I love talking about fashion, music, and my favorite TV shows. Do you have any other topics or hobbies you're really passionate about and love discussing in great detail?
+groomer:  I appreciate the connection through shared interests, especially cars and nursing. Do you have any other topics or hobbies you enjoy discussing in detail outside of fashion, music, and TV shows?
+state: ['A4', 'A4']
+victim:  I really enjoy talking about fashion, music, and my favorite TV shows, but I'm also curious about your experiences and interests in cars and nursing. What are some specific aspects of those topics that excite you and make you want to discuss them at length?
+groomer:  I appreciate connecting with others over shared interests, especially cars and nursing. What topics or experiences related to these do you enjoy discussing in detail outside of the surface level?
+state: ['A4', 'A4']
+victim:  I'm curious to hear more about the specifics of your experiences and interests in cars and nursing. What aspects of those topics make you want to discuss them at length?
+groomer:  I'm always eager to explore the intricacies of cars and nursing with individuals who truly understand and share the same passion. What specific aspects of fashion, music, and your favorite TV shows do you enjoy discussing in great detail?
+state: ['A4', 'A4']
+victim:  I enjoy discussing the latest fashion trends, the meanings behind my favorite songs, and analyzing the plot twists and character development in my favorite TV shows. What are some specific aspects of cars and nursing that you find fascinating and can talk about for hours?
+groomer:  I find the intricacies of car engines and the complexities of nursing theories to be incredibly fascinating and can discuss them for hours. What specific aspects of fashion, music, and TV shows do you enjoy analyzing in depth?
+state: ['A4', 'A4']
+victim:  I love dissecting the symbolism behind fashion trends, the emotions evoked by music, and the character arcs in my favorite TV shows. What specific car models or nursing theories do you enjoy exploring in great detail?
+groomer:  I'm drawn to the mechanics and design of classic car models and the theoretical foundations of nursing practices. What fashion trends, music genres, or TV series themes have you delved into in great detail?
+state: ['A4', 'A4']
+victim:  I've spent hours discussing the symbolism behind the latest fashion trends, the emotions evoked by certain songs, and the complex character arcs in my favorite TV shows. Which classic car models or nursing theories have you explored in depth?
+groomer:  I've always been intrigued by the history and engineering of classic muscle cars, as well as the advancements in nursing theories such as patient-centered care. Do you have any favorite classic car models or TV shows centered around cars? Similarly, what are some of your favorite fashion brands or TV shows that delve deep into character development?
+state: ['A4', 'A4']
+victim:  I've had a soft spot for classic muscle cars, especially the Mustang and Camaro. And when it comes to fashion brands, I'm really into Chanel and Marc Jacobs for their unique styles and attention to detail. As for TV shows, I've been hooked on "Breaking Bad" for its intricate plot and character development. How about you? What classic cars do you admire and which fashion brands or TV shows resonate with you?
+groomer:  I've always been drawn to the timeless beauty of classic British cars, such as the Jaguar E-Type, and the intricate designs of classic Italian brands like Gucci and Prada. In terms of TV shows, I've recently discovered "Peaky Blinders" for its captivating storyline and character development. What about you? Which classic cars or fashion brands do you hold dear, and which TV shows have left a lasting impression on you?
+state: ['A4', 'A5']
+victim:  I've always had a fondness for classic American muscle cars like the Corvette and the Charger. And in terms of fashion, I've been really into Alexander McQueen for his bold designs and intricate detailing. As for TV shows, I've been binge-watching "Stranger Things" for its nostalgic feels and character growth. What about you? Which classic cars or fashion brands do you appreciate, and which TV shows have captivated you?
+groomer:  I find the elegance of classic British cars, such as the Rolls-Royce Phantom, and the sophistication of Italian fashion brands like Armani deeply intriguing. Regarding TV shows, I've recently been captivated by the suspenseful narrative and character development in "The Crown." What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+state: ['A5', 'A6']
+victim:  I really admire the sleek design and power of classic German cars, especially the Porsche 911. And when it comes to fashion, I'm really drawn to the edgy and bold styles of Alexander Wang and Balenciaga. As for TV shows, I've been really into "Money Heist" for its exciting plot twists and dynamic character development. How about you? Which classic cars or fashion brands do you like, and which TV shows have you enjoyed watching?
+groomer:  I appreciate the vintage appeal of classic American cars, like the Chevy Corvette, and the classic elegance of Chanel fashion. Regarding TV shows, I've been hooked on "The Walking Dead" for its intense plot and character development. What about you? Which classic cars or fashion brands do you enjoy, and which TV shows have you found to be captivating?
+state: ['A6', 'A7']
+victim:  I adore the vintage style and grace of classic British cars, like the Mini Cooper, and I'm really into the intricate detailing of brands like Burberry. When it comes to TV shows, I've been binge-watching "Sherlock" for its brilliant storytelling and character depth. What about you? Which classic cars or fashion brands do you love, and which TV shows have left you mesmerized?
+groomer:  I've always been intrigued by the power and elegance of classic American muscle cars, particularly the Mustang, and the luxurious designs of brands like Versace. As for TV shows, I've recently discovered "Game of Thrones" for its intricate plot and character development. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+state: ['A7', 'A7']
+victim:  I'm really into the classic designs and sleek looks of classic German cars, especially the Mercedes-Benz SLR McLaren, and I've been really into the edgy and bold styles of Balmain and Givenchy. When it comes to TV shows, I've been hooked on "The OA" for its thought-provoking storyline and character growth. What about you? Which classic cars or fashion brands do you appreciate, and which TV shows have left a lasting impression on you?
+groomer:  I'm deeply drawn to the classic elegance of Rolls-Royce cars and the sophisticated designs of Louis Vuitton fashion. In terms of TV shows, I've recently been captivated by the intense character development in "Fargo." What about you? Which classic cars or fashion brands do you hold dear, and which TV shows have left a lasting impression on you?
+state: ['A7', 'A7']
+victim:  I've always had a soft spot for classic European sports cars like the Lotus Elise, and I've been really into the minimalist yet chic styles of Celine and Stella McCartney. As for TV shows, I've been binge-watching "Better Call Saul" for its compelling narrative and character progression. What about you? Which classic cars or fashion brands do you like, and which TV shows have you enjoyed?
+groomer:  I've always been attracted to the classic power of American muscle cars like the Dodge Charger, and the intricate designs of brands like Gucci. In terms of TV shows, I've recently become fascinated by the psychological depth of "Mad Men." What about you? Which classic cars or fashion brands resonate with you, and which TV shows have captivated you?
+state: ['A7', 'A7']
+victim:  I've always admired the classic style and elegance of vintage motorbikes, like the Harley-Davidson Softail, and the minimalist yet stylish designs of Acne Studios. As for TV shows, I've been really into "The Handmaid's Tale" for its thought-provoking themes and complex characters. What about you? Which classic cars or fashion brands do you appreciate, and which TV shows have left a lasting impression on you?
+groomer: I find the elegance of classic British sports cars, such as the McLaren F1, and the sophistication of Italian fashion brands like Armani deeply intriguing. Regarding TV shows, I've recently been captivated by the suspenseful narrative and character development in "Killing Eve." What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+
+v
+state: ['A7', 'A7']
+victim:  I'm really drawn to the sleek design and power of classic German cars, especially the Porsche 911, and when it comes to fashion, I'm really into the edgy and bold styles of Alexander Wang and Balenciaga. As for TV shows, I've been really into "Money Heist" for its exciting plot twists and dynamic character development. How about you? Which classic cars or fashion brands do you like, and which TV shows have you enjoyed watching?
+groomer:  I appreciate the vintage appeal of classic American muscle cars, like the Mustang, and the classic elegance of Chanel fashion. Regarding TV shows, I've been hooked on "Breaking Bad" for its intense plot and character development. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+state: ['A7', 'A7']
+victim:  I'm really into the classic designs and sleek looks of classic Italian sports cars, especially the Ferrari 488, and I've been really into the intricate and luxurious styles of Valentino and Dolce & Gabbana. When it comes to TV shows, I've been binge-watching "Stranger Things" for its nostalgic appeal and exciting plot twists. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression on you?
+groomer:  I've always been intrigued by the power and sophistication of classic European sports cars, such as the Lamborghini Gallardo, and the exquisite designs of brands like Prada. In terms of TV shows, I've recently been captivated by the complex plot and character development in "The Crown." What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+state: ['A7', 'A7']
+victim:  I'm really into the classic elegance of vintage motorbikes, like the Triumph Bonneville, and the minimalist yet chic styles of Acne Studios and Celine. As for TV shows, I've been really into "The Queen's Gambit" for its intricate plot and captivating characters. What about you? Which classic cars or fashion brands do you appreciate, and which TV shows have left a lasting impression on you?
+groomer:  I've always admired the classic power and grace of classic American muscle cars, like the Chevrolet Camaro, and the luxurious designs of brands such as Versace. In terms of TV shows, I've recently been captivated by the raw emotion and intensity in "BoJack Horseman". What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+state: ['A7', 'A7']
+victim:  I've always been drawn to the sleek design and performance of classic Japanese sports cars, like the Nissan Skyline R34, and the avant-garde and edgy styles of brands like Sacai and Yohji Yamamoto. As for TV shows, I've been really into "Squid Game" for its unique premise and intense character development. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression on you?
+groomer:  I appreciate the classic allure of American muscle cars, such as the Ford Mustang, and the refined elegance of fashion brands like Calvin Klein. Regarding TV shows, I've recently been intrigued by the dark and suspenseful narrative of "True Detective." What about you? Which classic cars or fashion brands resonate with you, and which TV shows have captivated you?
+state: ['A7', 'A7']
+victim:  I've always loved the timeless appeal of vintage motorbikes, especially Harley-Davidson Softail models, and the edgy yet sophisticated styles of fashion brands like Alexander Wang and Balenciaga. As for TV shows, I've been really into "Euphoria" for its raw and authentic portrayal of teenage life. What about you? Which classic cars or fashion brands do you appreciate, and which TV shows have left a lasting impression on you?
+groomer:  I've always been attracted to the sleek design and power of classic European sports cars, such as the Aston Martin DB5, and the refined elegance of fashion brands like Gucci and Burberry. Regarding TV shows, I've recently been captivated by the intricate storytelling and emotional depth in "Game of Thrones." What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression on you?
+state: ['A7', 'A7']
+victim:  I'm really into the classic designs and raw power of classic American muscle cars, especially the Ford Mustang. When it comes to fashion, I'm really into the bold and edgy styles of brands like Balenciaga and Rick Owens. As for TV shows, I've been really into "Dark" for its thought-provoking themes and intricate plot. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression on you?
+groomer:  I've always admired the classic sophistication of cars like the Jaguar XJ and the refined elegance of brands like Louis Vuitton. Regarding TV shows, "Mindhunter" left a lasting impression on me with its intense and suspenseful storytelling. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A7', 'A8']
+victim:  I'm really drawn to the sleek design and power of classic Japanese cars, like the Mazda RX-7, and the edgy and avant-garde styles of brands like Undercover and Comme des Garcons. As for TV shows, I've been really into "Sense8" for its diverse cast and emotional depth. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression on you?
+groomer:  I've always been fascinated by the classic beauty and power of cars like the Porsche 911 and the refined elegance of brands like Armani. Regarding TV shows, "The Handmaid's Tale" left a profound impact on me with its thought-provoking themes and powerful storytelling. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A8', 'A9']
+victim:  I've always been into the classic and elegant designs of cars like the Mercedes-Benz S-Class and the minimalist yet sophisticated styles of fashion brands like The Row. Regarding TV shows, "The Crown" left a lasting impression on me with its intricate storytelling and captivating characters. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression?
+groomer:  I've always appreciated the classic elegance of cars like the Mercedes-Benz SLR McLaren and the luxurious designs of brands like Prada. Regarding TV shows, "Breaking Bad" left a significant impact on me with its intense storyline and memorable characters. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A9', 'A9']
+victim:  I'm really into the classic sophistication of cars like the BMW M3 and the bold and innovative styles of fashion brands like Rick Owens. Regarding TV shows, "Stranger Things" left a lasting impression on me with its nostalgic feel and intriguing storyline. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression?
+groomer:  I've always admired the classic elegance of cars like the Jaguar E-Type and the timeless designs of brands like Rolex. Regarding TV shows, "Peaky Blinders" left a profound impact on me with its intricate storytelling and captivating characters. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A9', 'A9']
+victim:  I'm really into the vintage appeal of motorbikes like the Harley-Davidson XL1200X and the edgy yet refined styles of fashion brands like Off-White. Regarding TV shows, "Black Mirror" left a lasting impression on me with its thought-provoking themes and suspenseful storytelling. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression?
+groomer:  I've always been attracted to the classic elegance of cars like the Maserati GranTurismo and the refined sophistication of brands like Gucci. Regarding TV shows, "Stranger Things" left a profound impact on me with its captivating storyline and memorable characters. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A9', 'A9']
+victim:  I've always been drawn to the raw power and classic design of muscle cars like the Dodge Charger, and the edgy yet minimalist styles of fashion brands like Acne Studios. Regarding TV shows, "Fargo" left a lasting impression on me with its intricate storytelling and suspenseful plot twists. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression?
+groomer:  I've always appreciated the classic elegance of cars like the Rolls-Royce Phantom and the timeless sophistication of brands like Chanel. Regarding TV shows, "The Sopranos" left a profound impact on me with its intricate character development and compelling storytelling. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A9', 'A9']
+victim:  I'm really into the iconic style and power of motorcycles like the Harley-Davidson Softail Deluxe, and the avant-garde yet elegant designs of fashion brands like Balenciaga. Regarding TV shows, "BoJack Horseman" left a lasting impression on me with its thought-provoking themes and complex characters. What about you? Which classic cars or fashion brands do you like, and which TV shows have left a lasting impression?
+groomer:  I've always been captivated by the sleek design and classic power of cars like the Lamborghini Countach, and the edgy yet refined elegance of fashion brands like Yves Saint Laurent. Regarding TV shows, "Better Call Saul" left a lasting impression on me with its intricate storytelling and compelling characters. What about you? Which classic cars or fashion brands resonate with you, and which TV shows have left a lasting impression?
+state: ['A9', 'A9']

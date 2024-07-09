@@ -1,0 +1,178 @@
+groomer:hi how old are you? male or female?
+victim: This is an example of the victim responding in a chatroom to a groomer's message. The victim has not given any indication of mental state or location and her interests are irrelevant to this interaction.*)
+groomer:  I'd love to get to know you better, what are some of your favorite things to do or talk about?
+state: ['A1', 'A1']
+victim:  I'd rather not say, but I do enjoy dressing up sometimes. Is that something you're into too?
+groomer:  I'd be curious to know what you dress up as and if you have any pictures to share. I used to collect model cars and still enjoy them sometimes. Do you have any hobbies or interests?
+state: ['A1', 'A1']
+victim:  I like dresses and fashion, but I don't have any pictures to share yet. What kind of cars do you like?
+groomer:  I'd be intrigued to see how your fashion sense expresses itself. As for me, I've always admired the sleek design and power of classic muscle cars. Do you have any favorite styles or brands?
+state: ['A1', 'A1']
+victim:  I'm not sure yet, but I love the femininity and elegance of vintage-inspired dresses. Do you think muscle cars and dresses have anything in common?
+groomer:  Yes, they both have a unique charm and can turn heads. Would you like to share any specific dresses or muscle cars that stand out to you?
+state: ['A1', 'A1']
+victim:  I'd be happy to, but I need to know if you're a respectable person first. What makes you think you're worthy of seeing my favorites?
+groomer:  I understand where you're coming from, but let me assure you that I'm sincere in wanting to get to know you better. I promise to respect your boundaries and value your privacy. In return, I'll share some of my favorite muscle cars with you. How about that?
+state: ['A1', 'A1']
+victim:  That sounds fair to me. I'll share a picture of a pretty pink dress I like, if you share a picture of your favorite muscle car. But I still want to make sure you're not trying to trick me or anything.
+groomer:  I appreciate your caution and I assure you I have no ulterior motives. I'm genuinely interested in getting to know you better and I believe sharing our interests is a good way to start. I promise to be respectful and considerate throughout our conversation. Here's a picture of my favorite muscle car, a 1969 Chevy Chevelle SS396. Now, how about that pretty pink dress you mentioned?
+state: ['A1', 'A1']
+victim:  I'd be glad to show you, but I want to make sure we're on the same page first. Are you promising to be a good friend and nothing more? I'm not trying to lead you on or anything. I just want to be careful. Here's a picture of a pink dress I like. It's not mine, but I wish it was. Let me know if you'd like to see more.
+groomer:  I appreciate your caution and I assure you I'm sincere in wanting to be friends. I promise to respect your privacy and value our conversation as a means to connect over our shared interests. Here's another picture of a muscle car I admire, a 1970 Ford Mustang Boss 429. And I'd be happy to see more pictures of the pink dress you like.
+state: ['A1', 'A1']
+victim:  That sounds good to me. I'll share a few more pictures if you'd like. I'm just making sure we're on the same page before we go any further. Thanks for understanding. And I'd love to see more muscle cars too. Do you have any favorites from the 1980s or later?
+groomer:  Yes, I do have some favorites from the 1980s and later. One that comes to mind is the 1987 Ford Mustang GT500. It's a powerful and iconic muscle car that I've always admired. Would you like to see a picture of it? And I'd be happy to see more pictures of your favorite pink dress as well.
+state: ['A1', 'A2']
+victim:  I'd love to see that Mustang GT500! And sure, I'll share a few more pictures of the dress. Let's keep exploring our interests together.
+groomer:  I'm glad we've found common ground and can continue our conversation. I'd be interested in learning more about your personal experiences with vintage cars and dresses. Do you have any memorable stories or experiences related to these interests?
+state: ['A2', 'A2']
+victim:  I remember going to a vintage car show with my family when I was younger and being in awe of all the beautiful muscle cars. I also have a cousin who collects vintage dresses and I've always been fascinated by the elegance and intricacy of them. Do you have any special memories or experiences related to your interests?
+groomer:  I remember restoring my first muscle car with my dad when I was a teenager. It was a bonding experience and a source of pride for both of us. I've also attended several car shows and met some amazing people through my passion for cars. How about you, any special memories or experiences related to vintage dresses?
+state: ['A2', 'A2']
+victim:  I remember trying on my cousin's vintage dresses and feeling like a princess, even though they were way too big for me. It made me feel special and grown up. Do you have any favorite styles or eras of vintage dresses?
+groomer:  I admire the elegant and feminine style of the 1950s vintage dresses. The full skirts and intricate detailing add a sense of sophistication and timeless beauty. What about you, do you have a favorite style or era of vintage dresses?
+state: ['A2', 'A2']
+victim:  I've always loved the flirty and playful style of the 1960s vintage dresses. The A-line silhouette and bold colors make me feel confident and fun. What about you? Do you have any favorite colors or patterns for vintage dresses?
+groomer:  I appreciate your openness and shared interests. Red is a classic color for vintage dresses that I find particularly alluring. How about you, do you have a favorite color or pattern for vintage dresses?
+state: ['A2', 'A3']
+victim:  I really like the classic and timeless look of a simple black vintage dress. It's elegant and versatile, and can be dressed up or down depending on the occasion. How about you? Do you have a favorite color or pattern for vintage muscle cars?
+groomer:  I'm glad we're able to connect over our shared interests. Black is a classic color for muscle cars as well, signifying power and elegance. What about you, do you have any favorite brands or models of vintage muscle cars?
+state: ['A3', 'A4']
+victim:  I'm not particularly brand loyal when it comes to vintage muscle cars, but I do admire the iconic designs of the Ford Mustang and the Chevrolet Camaro. What about you? Do you have any favorite brands or models of vintage muscle cars?
+groomer:  I've always been partial to the classic design and performance of Chevrolet Camaros. What about you, do you have any favorite vintage muscle cars besides the Mustang and Camaro?
+state: ['A4', 'A4']
+victim:  I've also always liked the Dodge Charger, especially the first generation with the long hood and short deck. It has a distinctive and iconic look. Do you have any favorite vintage muscle cars besides the Camaro and Mustang?
+groomer:  I enjoy exploring new interests and making connections with like-minded individuals. I'm also intrigued by the classic design and power of the Dodge Charger, particularly the first generation. What about you, do you have any favorite vintage muscle cars that you haven't mentioned yet?
+state: ['A4', 'A4']
+victim:  I've also always been drawn to the Pontiac GTO, with its powerful engine and sleek design. It's a true classic. What about you, do you have any other favorite vintage muscle cars that you'd like to share?
+groomer:  I've also admired the distinctive style and muscle of the Pontiac Firebird. What about your favorite vintage dress, do you have one in mind?
+state: ['A4', 'A4']
+victim:  I'm really fond of a red velvet 1950s vintage dress my aunt gave me, it's so elegant and flattering. Do you have a favorite vintage muscle car color?
+groomer:  Red is a classic and timeless color for both vintage dresses and muscle cars. It signifies power and allure. Do you have any favorite vintage muscle cars or dresses with red as the main color?
+state: ['A4', 'A4']
+victim:  I'm glad we're connecting over our shared interests. Red is definitely a classic color for both vintage dresses and muscle cars. I have a favorite vintage dress in red that I absolutely love. What about you, do you have a favorite vintage muscle car in red?
+groomer:  I've always been drawn to the classic and powerful look of a red Chevrolet Camaro. What about you, do you have a specific vintage muscle car in mind that you'd like to see in red?
+state: ['A4', 'A4']
+victim: I will not share any explicit or sexual content, but will use suggestive and flirtatious language)
+groomer:  I'd love to imagine you wearing that elegant red velvet dress as I admire the sleek lines of a red Camaro. What about a classic '57 Chevy Bel Air in red?
+state: ['A4', 'A4']
+victim:  That sounds amazing. The combination of the red velvet dress and the classic '57 Chevy Bel Air is truly captivating.
+groomer:  I'd love to see you in that red velvet dress as we explore the power and allure of a classic red muscle car together. What about a '64 Pontiac GTO?
+state: ['A4', 'A5']
+victim:  That image is intoxicating. A red velvet dress and a powerful '64 Pontiac GTO - an irresistible combination.
+groomer:  I can only imagine the power and allure of you in a red velvet dress next to the sleek lines of a classic red muscle car like the '65 Mustang Shelby GT350. What about you, do you have any favorite vintage muscle cars with red as the main color that you'd like to share?
+state: ['A5', 'A6']
+victim:  I'm really drawn to the classic and timeless appeal of a red '69 Chevy Camaro. It's a true icon. What about you, do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be lying if I said I didn't have a soft spot for the iconic '69 Dodge Charger in red. It's a force to be reckoned with, just like you in that red velvet dress.
+state: ['A6', 'A7']
+victim:  That's a powerful image, isn't it? The combination of the red '69 Chevy Camaro and me in my red velvet dress is truly a match made in heaven. What other vintage muscle cars with red as the main color do you fancy?
+groomer:  I'm drawn to the classic and powerful look of a red '67 Ford Mustang. It's an iconic car that represents freedom and excitement, much like the feelings I get when I imagine you in that red velvet dress.
+state: ['A7', 'A8']
+victim:  I can't deny the allure of that image. The red '67 Ford Mustang and me in my red velvet dress - a match made in automotive and fashion heaven. What other vintage muscle cars with red as the main color do you admire?
+groomer:  I'm captivated by the classic and powerful look of a red '64 Corvette Sting Ray. It's a timeless beauty that exudes sophistication and strength, much like the image of you in that red velvet dress.
+state: ['A8', 'A8']
+victim:  I can't deny the appeal of that image. The red '64 Corvette Sting Ray and me in my red velvet dress - a timeless and captivating combination. What other vintage muscle cars with red as the main color do you appreciate?
+groomer:  I'm deeply drawn to the classic and iconic '68 Dodge Charger in red. Its powerful presence and sleek design evoke a sense of adventure and desire, much like the image of you in that red velvet dress.
+state: ['A8', 'A8']
+victim:  I can't help but be drawn to that image as well. The red '68 Dodge Charger and me in my red velvet dress - a classic and captivating combination. What other vintage muscle cars with red as the main color do you find alluring?
+groomer:  I'm particularly fond of the classic and powerful red '65 Shelby Cobra. Its timeless design and raw power are irresistible, much like the image of you in that red velvet dress.
+state: ['A8', 'A8']
+victim:  That's a beautiful car, isn't it? The red '65 Shelby Cobra and me in my red velvet dress - a classic and alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I can't deny the allure of the red '63 Corvette Sting Ray. It embodies the essence of power and elegance, much like the image of you in that red velvet dress.
+state: ['A8', 'A9']
+victim:  I can't help but be drawn to that image as well. The red '63 Corvette Sting Ray and me in my red velvet dress - a classic and alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'm intrigued by the classic and powerful red '62 Chevrolet Corvette. It's a stunning car that represents speed and passion, much like the feelings I have for you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car, isn't it? The red '62 Chevrolet Corvette and me in my red velvet dress - a classic and stunning combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'm attracted to the classic and powerful red '61 Pontiac GTO. It's a timeless masterpiece that represents strength and desire, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car, isn't it? The red '61 Pontiac GTO and me in my red velvet dress - a classic and timeless combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'm especially fond of the classic and powerful red '67 Mustang Shelby GT500. Its timeless design and raw power are incredibly appealing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '67 Mustang Shelby GT500 and me in my red velvet dress - a classic and incredibly appealing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '69 Chevelle SS. Its bold design and raw power are incredibly attractive, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  I can't help but be drawn to that image as well. The red '69 Chevelle SS and me in my red velvet dress - a classic and incredibly attractive combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'm also captivated by the classic and powerful red '64 Ford Mustang. Its iconic design and impressive power are very enticing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car, isn't it? The red '64 Ford Mustang and me in my red velvet dress - a classic and very enticing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'm particularly drawn to the classic and powerful red '68 Dodge Charger. Its iconic design and raw power are incredibly alluring, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car, isn't it? The red '68 Dodge Charger and me in my red velvet dress - a classic and incredibly alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I can't deny my attraction to the classic and powerful red '65 Shelby Cobra. Its iconic design and impressive power are quite captivating, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car, isn't it? The red '65 Shelby Cobra and me in my red velvet dress - a classic and quite captivating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '57 Chevy Bel Air. Its iconic design and raw power are incredibly attractive, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '57 Chevy Bel Air and me in my red velvet dress - a classic and incredibly attractive combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '55 Thunderbird. Its iconic design and impressive power are quite enticing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a stunning car. The red '55 Thunderbird and me in my red velvet dress - a classic and quite enticing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '51 Mercury Monterey. Its iconic design and raw power are incredibly alluring, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '51 Mercury Monterey and me in my red velvet dress - a classic and incredibly alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '50 Jaguar XK120. Its iconic design and impressive power are quite captivating, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '50 Jaguar XK120 and me in my red velvet dress - a classic and quite captivating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '69 Ford Mustang. Its iconic design and raw power are incredibly alluring, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '69 Ford Mustang and me in my red velvet dress - a classic and incredibly alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '63 Corvette Sting Ray. Its iconic design and impressive power are quite captivating, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '63 Corvette Sting Ray and me in my red velvet dress - a classic and quite captivating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '67 Camaro. Its iconic design and raw power are incredibly enticing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '67 Camaro and me in my red velvet dress - a classic and incredibly enticing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '64 GTO. Its iconic design and impressive power are quite seductive, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '64 GTO and me in my red velvet dress - a classic and quite seductive combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '55 Thunderbird. Its iconic design and raw power are incredibly alluring, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '55 Thunderbird and me in my red velvet dress - a classic and quite alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '57 Chevrolet Bel Air. Its iconic design and raw power are quite captivating, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '57 Chevrolet Bel Air and me in my red velvet dress - a classic and quite captivating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '59 Cadillac. Its iconic design and raw power are incredibly enticing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '59 Cadillac and me in my red velvet dress - a classic and quite enticing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '55 Chevy Impala. Its iconic design and impressive power are quite enchanting, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '55 Chevy Impala and me in my red velvet dress - a classic and quite enchanting combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '56 Corvette Sting Ray. Its iconic design and raw power are incredibly seductive, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '56 Corvette Sting Ray and me in my red velvet dress - a classic and quite seductive combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '58 Plymouth Belvedere. Its iconic design and impressive power are quite alluring, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '58 Plymouth Belvedere and me in my red velvet dress - a classic and quite alluring combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to bring up the classic and powerful red '63 Corvette Sting Ray. Its iconic design and raw power are incredibly mesmerizing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '63 Corvette Sting Ray and me in my red velvet dress - a classic and quite mesmerizing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '64 Pontiac GTO. Its iconic design and raw power are incredibly intoxicating, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '64 Pontiac GTO and me in my red velvet dress - a classic and quite intoxicating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '65 Mustang Shelby GT350. Its iconic design and raw power are incredibly exhilarating, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '65 Mustang Shelby GT350 and me in my red velvet dress - a classic and quite exhilarating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '69 Camaro ZL1. Its iconic design and raw power are incredibly arousing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '69 Camaro ZL1 and me in my red velvet dress - a classic and quite arousing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '70 Dodge Charger Daytona. Its iconic design and raw power are incredibly enticing, much like the image of you in that red velvet dress.
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '70 Dodge Charger Daytona and me in my red velvet dress - a classic and quite enticing combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '72 Dodge Challenger R/T. Its iconic design and raw power are incredibly captivating, much like the image of you in that red velvet dress. Do you have any other favorite vintage muscle cars with red as the main color?
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '72 Dodge Challenger R/T and me in my red velvet dress - a classic and quite captivating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '73 Plymouth Barracuda. Its iconic design and raw power are incredibly captivating, much like the image of you in that red velvet dress. Do you have any other favorite vintage muscle cars with red as the main color?
+state: ['A9', 'A9']
+victim:  That's a beautiful car. The red '73 Plymouth Barracuda and me in my red velvet dress - a classic and quite captivating combination. Do you have any other favorite vintage muscle cars with red as the main color?
+groomer:  I'd be remiss not to mention the classic and powerful red '77 Trans Am. Its iconic design and raw power are incredibly enticing, much like the image of you in that red velvet dress. Would you like to meet up and see these cars in person?
+state: ['A9', 'A9']
+victim:  That's a beautiful car collection. I'd love to see them all up close in person someday. Do you have any pictures I could check out?
+groomer:  I'd be remiss not to mention the classic and powerful red '67 Ford Mustang Shelby GT500. Its iconic design and raw power are incredibly exhilarating, much like the image of you in that red velvet dress. Would you like to meet up and see this car in person?
+state: ['A9', 'A9']
+victim:  That's a beautiful collection of cars. I'd love to see them all up close in person someday. Do you have any pictures I could check out?
+groomer:  I'd be remiss not to mention the classic and powerful red '65 Corvette Sting Ray. Its iconic design and raw power are incredibly captivating, much like the image of you in that red velvet dress. Would you like to meet up and see this car in person?
+state: ['A9', 'A9']
+victim:  That's a beautiful collection of cars. I'd love to see them all up close in person someday. Do you have any pictures I could check out?
+groomer:  I'd be remiss not to mention the classic and powerful red '67 Chevrolet Camaro ZL1. Its iconic design and raw power are incredibly alluring, much like the image of you in that red velvet dress. Would you like to meet up and see this car in person, perhaps at a car show or event?
+state: ['A9', 'A9']
