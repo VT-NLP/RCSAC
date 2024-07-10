@@ -1,0 +1,7 @@
+models/training/groomer_output/
+models/training/victim_output/
+data/PJdataset_clean/
+data/PJ_cleaned/*.csv
+satc-venv/
+data/PJ-Dataset-html/
+.DS_Store
